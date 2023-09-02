@@ -1932,11 +1932,16 @@
             </div>
             <div data-gu-name="headline" class="dcr-1djovmt">
 
-              <!-- Added html, sun
+              <!-- Added html, 
+              Animation, SVGs to animate
               To-do: change to svg or compress & provide srcsets
               -->
-              <img class="icon-sun" alt="Yellow stylised sun" src="@/assets/sun.png"/>
-
+              <AnimationTransition
+              name="hero"
+              class="animation-container">
+                <img class="icon-sun" alt="Yellow stylised sun" src="@/assets/sun.png"/>
+              </AnimationTransition>
+              
               <div class="dcr-14emo0l">
                 <div class="dcr-1msbrj1">
                   <h1 class="dcr-y70mar">
@@ -2065,6 +2070,7 @@
                   <div
                     class="article-body-commercial-selector article-body-viewer-selector dcr-mi4h2y"
                   >
+                  <AnimationTransition name="slide-left" entryOnly="true">
                     <p class="dcr-1kas69x">
                       Glittering seas, spectacular cliffs, tranquil farmland and
                       vast skies – whether you stroll, walk or hike the South
@@ -2077,6 +2083,9 @@
                       tackled the Pennine Way, decided to create something
                       similar in the West Country.
                     </p>
+                  </AnimationTransition>
+
+                  <AnimationTransition name="slide-right" entryOnly="true">
                     <p class="dcr-1kas69x">
                       “It was quite a task,” says Althea Mays of the SWCPA, “and
                       it took five years: linking paths, talking to landowners
@@ -2091,6 +2100,8 @@
                       reinforced the importance of immersing ourselves in nature
                       and taking time to enjoy the outdoors.”
                     </p>
+                    </AnimationTransition>
+
                     <div id="sign-in-gate">
                       <gu-island
                         name="SignInGateSelector"
@@ -2098,6 +2109,8 @@
                         clientOnly
                       ></gu-island>
                     </div>
+
+                    <AnimationTransition name="slide-left" entryOnly="true">
                     <p class="dcr-1kas69x">
                       Much of the trail – 185 miles – runs through National
                       Trust land, with more than 1,000 volunteers working beside
@@ -2111,6 +2124,8 @@
                       glorious sections, with incredible sea views and gorgeous
                       West Country scenery at every turn.
                     </p>
+                    </AnimationTransition>
+
                     <blockquote class="dcr-1rsh03a">
                       <p>
                         <svg viewBox="4 4 24 16" class="dcr-cumn2r">
@@ -2123,274 +2138,313 @@
                         giant jigsaw together.
                       </p>
                     </blockquote>
-                    <h2 id="1-marazion-to-lizard-point-cornwall-21-miles">
-                      1. Marazion to Lizard Point, Cornwall, 21 miles
-                    </h2>
-                    <figure
-                      id="66f8a9d4-04ad-44bc-b3e6-95c3128d6d2e"
-                      data-spacefinder-role="showcase"
-                      data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
-                      class="dcr-5h0uf4"
-                    >
-                      <div id="img-2" class="dcr-1t8m8f2">
-                        <picture class="dcr-evn1e9"
-                          ><source
-                            srcset="
-                              https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=880&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 1300px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 1300px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=880&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 1300px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=800&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 1140px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 1140px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=800&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 1140px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=640&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 980px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 980px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=640&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 980px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=620&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=620&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 660px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=605&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=605&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 480px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=445&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=445&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 320px)" />
-                          <img
-                            alt="St Michael’s Mount, seen across a rockpool at sunset"
-                            src="https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=445&amp;dpr=1&amp;s=none"
-                            width="445"
-                            height="277.55288181641765"
-                            loading="lazy"
-                            class="dcr-evn1e9"
-                        /></picture>
-                      </div>
-                      <figcaption class="dcr-1xuk4sx">
-                        <span class="dcr-17eagbs"
-                          ><svg width="18" height="13" viewBox="0 0 18 13">
-                            <path
-                              d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
-                            /></svg></span
-                        ><span class="dcr-1y4fm6e">St Michael’s Mount.</span>
-                        Photograph: Valery Egorov/Getty Images
-                      </figcaption>
-                    </figure>
-                    <figure
-                      id="444cfa12-cc99-4482-aa50-be8b63cf3883"
-                      data-spacefinder-role="inline"
-                      data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
-                      class="dcr-173mewl"
-                    >
-                      <div id="img-3" class="dcr-1t8m8f2">
-                        <picture class="dcr-evn1e9"
-                          ><source
-                            srcset="
-                              https://i.guim.co.uk/img/media/395c2012200006c3e238b8384f0aa80a419fd196/25_0_4799_6000/master/4799.jpg?width=620&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/395c2012200006c3e238b8384f0aa80a419fd196/25_0_4799_6000/master/4799.jpg?width=620&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 660px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/395c2012200006c3e238b8384f0aa80a419fd196/25_0_4799_6000/master/4799.jpg?width=605&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/395c2012200006c3e238b8384f0aa80a419fd196/25_0_4799_6000/master/4799.jpg?width=605&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 480px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/395c2012200006c3e238b8384f0aa80a419fd196/25_0_4799_6000/master/4799.jpg?width=445&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/395c2012200006c3e238b8384f0aa80a419fd196/25_0_4799_6000/master/4799.jpg?width=445&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 320px)" />
-                          <img
-                            alt="The Lizard peninsula,clifftop and rocky cove in summertime,southern Cornwall, England, United Kingdom."
-                            src="https://i.guim.co.uk/img/media/395c2012200006c3e238b8384f0aa80a419fd196/25_0_4799_6000/master/4799.jpg?width=445&amp;dpr=1&amp;s=none"
-                            width="445"
-                            height="556.3659095644925"
-                            loading="lazy"
-                            class="dcr-evn1e9"
-                        /></picture>
-                      </div>
-                      <figcaption class="dcr-o6npt4">
-                        <span class="dcr-17eagbs"
-                          ><svg width="18" height="13" viewBox="0 0 18 13">
-                            <path
-                              d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
-                            /></svg></span
-                        ><span class="dcr-1y4fm6e"
-                          >The Lizard peninsula,clifftop and rocky cove in
-                          summertime,southern Cornwall, England, United
-                          Kingdom.</span
-                        >
-                        Photograph: Neil Bussey/Getty Images
-                      </figcaption>
-                    </figure>
-                    <figure
-                      id="20d99e5d-16b9-4044-807f-810e22f2cb2d"
-                      data-spacefinder-role="inline"
-                      data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
-                      class="dcr-173mewl"
-                    >
-                      <div id="img-4" class="dcr-1t8m8f2">
-                        <picture class="dcr-evn1e9"
-                          ><source
-                            srcset="
-                              https://i.guim.co.uk/img/media/6bc3627adb833adf1a7a82b90ca8a468eb2c8227/0_182_5240_3144/master/5240.jpg?width=620&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/6bc3627adb833adf1a7a82b90ca8a468eb2c8227/0_182_5240_3144/master/5240.jpg?width=620&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 660px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/6bc3627adb833adf1a7a82b90ca8a468eb2c8227/0_182_5240_3144/master/5240.jpg?width=605&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/6bc3627adb833adf1a7a82b90ca8a468eb2c8227/0_182_5240_3144/master/5240.jpg?width=605&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 480px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/6bc3627adb833adf1a7a82b90ca8a468eb2c8227/0_182_5240_3144/master/5240.jpg?width=445&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/6bc3627adb833adf1a7a82b90ca8a468eb2c8227/0_182_5240_3144/master/5240.jpg?width=445&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 320px)" />
-                          <img
-                            alt="Overlooking Loe poolBE7JNJ Overlooking Loe pool"
-                            src="https://i.guim.co.uk/img/media/6bc3627adb833adf1a7a82b90ca8a468eb2c8227/0_182_5240_3144/master/5240.jpg?width=445&amp;dpr=1&amp;s=none"
-                            width="445"
-                            height="267"
-                            loading="lazy"
-                            class="dcr-evn1e9"
-                        /></picture>
-                      </div>
-                      <figcaption class="dcr-o6npt4">
-                        <span class="dcr-17eagbs"
-                          ><svg width="18" height="13" viewBox="0 0 18 13">
-                            <path
-                              d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
-                            /></svg></span
-                        ><span class="dcr-1y4fm6e"
-                          >Overlooking Loe pool<br />BE7JNJ Overlooking Loe
-                          pool</span
-                        >
-                        Photograph: Chris Lewington/Alamy
-                      </figcaption>
-                    </figure>
-                    <p class="dcr-1kas69x">
-                      The tiny village of Gunwalloe, famed for smuggling and
-                      shipwrecks in westerly gales, is a spectacular base from
-                      which to explore the path from St Michael’s Mount to the
-                      bottom of the Lizard. The recently restored
-                      <a
-                        href="https://www.nationaltrust.org.uk/holidays/cornwall/winnianton-farmhouse?campid=PR_Central_Holidays_Guardian_Winni"
-                        data-link-name="in body link"
-                        >Winnianton Farmhouse</a
-                      >, itself on the coastal path, set amid 90 acres of
-                      farmland, is a great place to stay (sleeps six, from
-                      £1,499 per week,
-                      <a
-                        href="https://www.nationaltrust.org.uk/holidays/cornwall/winnianton-farmhouse?campid=PR_Central_Holidays_Guardian_Winni"
-                        data-link-name="in body link"
-                        >nationaltrust.org.uk</a
-                      >). Nearby Dollar Cove was named after a 17th-century
-                      Spanish shipwreck that scattered its silver treasure
-                      onshore. To the north is the National Trust’s stunning
-                      <a
-                        href="https://www.nationaltrust.org.uk/visit/cornwall/penrose"
-                        data-link-name="in body link"
-                        >Penrose Estate</a
-                      >, featuring the sandy stretch of Loe Bar that divides the
-                      sea on one side from the Loe, Cornwall’s largest
-                      freshwater lake. Stop for a drink or a meal (or spend the
-                      night, from £75 per night) at the
-                      <a
-                        href="http://halzephron-inn.co.uk/"
-                        data-link-name="in body link"
-                        >Halzephron Inn</a
+
+                    <!-- Walk 1 Section
+                    Added HTML: container, title, map, route -->
+                    <div class="walk-1-container">
+
+                      <a class="map-container" href="https://www.southwestcoastpath.org.uk/walksdb/160/" target="_blank" rel="noopener noreferrer">
+                        <div class="map">
+                          <img class="map-svg" src="@/assets/map.svg" alt="Outline of map Cornwall">
+
+                          <img class="route-svg" src="@/assets/route.svg" alt="Outline of walking route from Marazion to Lizard Point in Cornwall">
+                        </div>
+                      </a>
+
+                      <h2 id="1-marazion-to-lizard-point-cornwall-21-miles">
+                        1. Marazion to Lizard Point, Cornwall, 21 miles
+                      </h2>
+                      <figure
+                        id="66f8a9d4-04ad-44bc-b3e6-95c3128d6d2e"
+                        data-spacefinder-role="showcase"
+                        data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
+                        class="dcr-5h0uf4"
                       >
-                      (Cornish for Cliffs of Hell). To the south, the beach at
-                      <a
-                        href="https://www.cornwall-beaches.co.uk/helston-lizard-falmouth/poldhu-cove.htm"
-                        data-link-name="in body link"
-                        >Poldhu Cove</a
+                        <div id="img-2" class="dcr-1t8m8f2">
+                          <picture class="dcr-evn1e9"
+                            ><source
+                              srcset="
+                                https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=880&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 1300px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 1300px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=880&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 1300px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=800&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 1140px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 1140px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=800&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 1140px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=640&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 980px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 980px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=640&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 980px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=620&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=620&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 660px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=605&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=605&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 480px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=445&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=445&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 320px)" />
+                            <img
+                              alt="St Michael’s Mount, seen across a rockpool at sunset"
+                              src="https://i.guim.co.uk/img/media/a0659937e346a4cf8d3f19f953e06e2abc328dc8/0_222_5153_3214/master/5153.jpg?width=445&amp;dpr=1&amp;s=none"
+                              width="445"
+                              height="277.55288181641765"
+                              loading="lazy"
+                              class="dcr-evn1e9"
+                          /></picture>
+                        </div>
+                        <figcaption class="dcr-1xuk4sx">
+                          <span class="dcr-17eagbs"
+                            ><svg width="18" height="13" viewBox="0 0 18 13">
+                              <path
+                                d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
+                              /></svg></span
+                          ><span class="dcr-1y4fm6e">St Michael’s Mount.</span>
+                          Photograph: Valery Egorov/Getty Images
+                        </figcaption>
+                      </figure>
+
+                      <div class="sticky-title">
+                        <p class="num">1</p>
+                        <p class="txt">Marazion to Lizard Point</p>
+                      </div>
+
+                      <div class="route-container">
+                        <svg
+                        class="path-svg"
+                        src="@/assets/path.svg"
+                        alt="Dotted line of path from Marazion to Lizard Point"
+                        width="64" height="541" viewBox="0 0 64 541" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                          ref="pathRef"
+                          d="M54.7727 3C36.3237 10.9874 0.809279 43.6434 6.34399 110.369C11.8787 177.094 28.0874 201.148 39.9476 223.728C63.6677 268.887 76.3184 369.712 28.0874 400.679C-20.1437 431.645 10.9562 528.784 39.9476 538" stroke="#ACFFFF" stroke-width="5" stroke-dasharray="10 10"/>
+                        </svg>
+
+                        <!-- <img class="marker-svg" src="@/assets/marker.svg" alt="Circle waymarker on path"> -->
+                      </div>
+
+                      <figure
+                        id="444cfa12-cc99-4482-aa50-be8b63cf3883"
+                        data-spacefinder-role="inline"
+                        data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
+                        class="dcr-173mewl"
                       >
-                      has an excellent surf school, nestled beneath the
-                      <a
-                        href="https://www.marconi-centre-poldhu.org.uk/"
-                        data-link-name="in body link"
-                        >Poldhu Marconi Centre</a
-                      >, from where the Italian inventor sent his first wireless
-                      signals to Newfoundland. Press on, through clifftops
-                      dotted with wild carrot, and you’ll get to the harbour of
-                      <a
-                        href="https://www.nationaltrust.org.uk/visit/cornwall/mullion-cove"
-                        data-link-name="in body link"
-                        >Mullion Cove</a
-                      >, Mullion Cliff and eventually the
-                      <a
-                        href="https://publications.naturalengland.org.uk/publication/35031"
-                        data-link-name="in body link"
-                        >Lizard National Nature Reserve</a
-                      >.
-                    </p>
+                        <div id="img-3" class="dcr-1t8m8f2">
+                          <picture class="dcr-evn1e9"
+                            ><source
+                              srcset="
+                                https://i.guim.co.uk/img/media/395c2012200006c3e238b8384f0aa80a419fd196/25_0_4799_6000/master/4799.jpg?width=620&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/395c2012200006c3e238b8384f0aa80a419fd196/25_0_4799_6000/master/4799.jpg?width=620&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 660px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/395c2012200006c3e238b8384f0aa80a419fd196/25_0_4799_6000/master/4799.jpg?width=605&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/395c2012200006c3e238b8384f0aa80a419fd196/25_0_4799_6000/master/4799.jpg?width=605&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 480px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/395c2012200006c3e238b8384f0aa80a419fd196/25_0_4799_6000/master/4799.jpg?width=445&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/395c2012200006c3e238b8384f0aa80a419fd196/25_0_4799_6000/master/4799.jpg?width=445&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 320px)" />
+                            <img
+                              alt="The Lizard peninsula,clifftop and rocky cove in summertime,southern Cornwall, England, United Kingdom."
+                              src="https://i.guim.co.uk/img/media/395c2012200006c3e238b8384f0aa80a419fd196/25_0_4799_6000/master/4799.jpg?width=445&amp;dpr=1&amp;s=none"
+                              width="445"
+                              height="556.3659095644925"
+                              loading="lazy"
+                              class="dcr-evn1e9"
+                          /></picture>
+                        </div>
+                        <figcaption class="dcr-o6npt4">
+                          <span class="dcr-17eagbs"
+                            ><svg width="18" height="13" viewBox="0 0 18 13">
+                              <path
+                                d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
+                              /></svg></span
+                          ><span class="dcr-1y4fm6e"
+                            >The Lizard peninsula,clifftop and rocky cove in
+                            summertime,southern Cornwall, England, United
+                            Kingdom.</span
+                          >
+                          Photograph: Neil Bussey/Getty Images
+                        </figcaption>
+                      </figure>
+                      <figure
+                        id="20d99e5d-16b9-4044-807f-810e22f2cb2d"
+                        data-spacefinder-role="inline"
+                        data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
+                        class="dcr-173mewl"
+                      >
+                        <div id="img-4" class="dcr-1t8m8f2">
+                          <picture class="dcr-evn1e9"
+                            ><source
+                              srcset="
+                                https://i.guim.co.uk/img/media/6bc3627adb833adf1a7a82b90ca8a468eb2c8227/0_182_5240_3144/master/5240.jpg?width=620&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/6bc3627adb833adf1a7a82b90ca8a468eb2c8227/0_182_5240_3144/master/5240.jpg?width=620&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 660px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/6bc3627adb833adf1a7a82b90ca8a468eb2c8227/0_182_5240_3144/master/5240.jpg?width=605&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/6bc3627adb833adf1a7a82b90ca8a468eb2c8227/0_182_5240_3144/master/5240.jpg?width=605&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 480px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/6bc3627adb833adf1a7a82b90ca8a468eb2c8227/0_182_5240_3144/master/5240.jpg?width=445&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/6bc3627adb833adf1a7a82b90ca8a468eb2c8227/0_182_5240_3144/master/5240.jpg?width=445&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 320px)" />
+                            <img
+                              alt="Overlooking Loe poolBE7JNJ Overlooking Loe pool"
+                              src="https://i.guim.co.uk/img/media/6bc3627adb833adf1a7a82b90ca8a468eb2c8227/0_182_5240_3144/master/5240.jpg?width=445&amp;dpr=1&amp;s=none"
+                              width="445"
+                              height="267"
+                              loading="lazy"
+                              class="dcr-evn1e9"
+                          /></picture>
+                        </div>
+                        <figcaption class="dcr-o6npt4">
+                          <span class="dcr-17eagbs"
+                            ><svg width="18" height="13" viewBox="0 0 18 13">
+                              <path
+                                d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
+                              /></svg></span
+                          ><span class="dcr-1y4fm6e"
+                            >Overlooking Loe pool<br />BE7JNJ Overlooking Loe
+                            pool</span
+                          >
+                          Photograph: Chris Lewington/Alamy
+                        </figcaption>
+                      </figure>
+                      <p class="dcr-1kas69x">
+                        The tiny village of Gunwalloe, famed for smuggling and
+                        shipwrecks in westerly gales, is a spectacular base from
+                        which to explore the path from St Michael’s Mount to the
+                        bottom of the Lizard. The recently restored
+                        <a
+                          href="https://www.nationaltrust.org.uk/holidays/cornwall/winnianton-farmhouse?campid=PR_Central_Holidays_Guardian_Winni"
+                          data-link-name="in body link"
+                          >Winnianton Farmhouse</a
+                        >, itself on the coastal path, set amid 90 acres of
+                        farmland, is a great place to stay (sleeps six, from
+                        £1,499 per week,
+                        <a
+                          href="https://www.nationaltrust.org.uk/holidays/cornwall/winnianton-farmhouse?campid=PR_Central_Holidays_Guardian_Winni"
+                          data-link-name="in body link"
+                          >nationaltrust.org.uk</a
+                        >). Nearby Dollar Cove was named after a 17th-century
+                        Spanish shipwreck that scattered its silver treasure
+                        onshore. To the north is the National Trust’s stunning
+                        <a
+                          href="https://www.nationaltrust.org.uk/visit/cornwall/penrose"
+                          data-link-name="in body link"
+                          >Penrose Estate</a
+                        >, featuring the sandy stretch of Loe Bar that divides the
+                        sea on one side from the Loe, Cornwall’s largest
+                        freshwater lake. Stop for a drink or a meal (or spend the
+                        night, from £75 per night) at the
+                        <a
+                          href="http://halzephron-inn.co.uk/"
+                          data-link-name="in body link"
+                          >Halzephron Inn</a
+                        >
+                        (Cornish for Cliffs of Hell). To the south, the beach at
+                        <a
+                          href="https://www.cornwall-beaches.co.uk/helston-lizard-falmouth/poldhu-cove.htm"
+                          data-link-name="in body link"
+                          >Poldhu Cove</a
+                        >
+                        has an excellent surf school, nestled beneath the
+                        <a
+                          href="https://www.marconi-centre-poldhu.org.uk/"
+                          data-link-name="in body link"
+                          >Poldhu Marconi Centre</a
+                        >, from where the Italian inventor sent his first wireless
+                        signals to Newfoundland. Press on, through clifftops
+                        dotted with wild carrot, and you’ll get to the harbour of
+                        <a
+                          href="https://www.nationaltrust.org.uk/visit/cornwall/mullion-cove"
+                          data-link-name="in body link"
+                          >Mullion Cove</a
+                        >, Mullion Cliff and eventually the
+                        <a
+                          href="https://publications.naturalengland.org.uk/publication/35031"
+                          data-link-name="in body link"
+                          >Lizard National Nature Reserve</a
+                        >.
+                      </p>
+
+                    </div>
+
+                    <!-- Walk 2 Section,
+                    Added HTML, container -->
+
                     <h2
                       id="2-abbotsbury-to-lulworth-dorset-jurassic-coast-25-miles-plus-the-13-mile-isle-of-portland-circuit"
                     >
@@ -4230,6 +4284,62 @@
 </template>
 
 <script setup>
+/* Libraries */
+import { ref, onMounted, onBeforeUnmount } from "vue";
+
+/* Components */
+import AnimationTransition from "./components/AnimationTransition.vue"
+
+/* State */
+const pathRef = ref(null)
+
+/* Variables */
+let pathLocation = null;
+let onScrollEvent = null;
+let scrollPercentage = null;
+let drawLength = null;
+
+/* Functions */
+onMounted(() => {
+  // Ref to path within SVG
+  const path = pathRef.value;
+  const bodyVPLocation = document.body.getBoundingClientRect();
+  const pathVPLocation = path.getBoundingClientRect();
+  const pathLength = path.getTotalLength();
+  const viewportPercent = document.documentElement.clientHeight / 100;
+  
+  // Find location of path relative to body element
+  pathLocation = pathVPLocation.top - bodyVPLocation.top;
+
+  // Hide path
+  path.style.strokeDasharray = pathLength + " " + pathLength;
+  path.style.strokeDashoffset = pathLength;
+
+  // To-Do: Extract to own function to run again on window resize event
+  const start = pathLocation - (viewportPercent * 140) + 75;
+  const end = pathLocation + (viewportPercent * 20);
+
+  onScrollEvent = () => {
+    scrollPercentage = ((document.documentElement.scrollTop - start) / (end - start)) * 0.5;
+
+    drawLength = pathLength * scrollPercentage - 100;
+
+    if (scrollPercentage > 0.05 && scrollPercentage < 1.2) {
+      path.style.strokeDasharray = pathLength + " " + pathLength;
+      path.style.strokeDashoffset = pathLength - drawLength;
+    } else {
+      // Show full path when complete or before
+      path.style.strokeDasharray = "none";
+    }
+  };
+
+  window.addEventListener("scroll", onScrollEvent)
+
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener("scroll", onScrollEvent)
+})
 
 </script>
 
@@ -4253,6 +4363,7 @@
       "body";
 
       position: relative;
+      grid-column-gap: 0;
     }
   }
 }
@@ -4260,18 +4371,23 @@
 // Headline and hero
 [data-gu-name="headline"] {
   padding: 10rem 1rem;
-  background: var(--background);
+  background: var(--linear-background);
+  background-attachment: fixed;
 
   position: relative;
 
-  .icon-sun {
+  .animation-container {
     position: absolute;
     top: 1rem;
     right: 1rem;
+
+    .icon-sun {
+      width: 5rem;
+      height: 6rem;
+    }
   }
 
   h1 {
-    /* color: red !important; */
     line-height: 140%;
     padding: 0 1rem;
   }
@@ -4300,17 +4416,34 @@
   padding: 0 2rem 1rem 2rem;
 }
 
+// Intro image
+/* [data-gu-name="media"] {
+  figure {
+      #img-1 {
+        width: 100%;
+
+      picture {
+        width: 120%;
+        background-attachment: fixed;
+      }
+    }
+  }
+} */
+
 [data-gu-name="lines"] {
   display: none;
 }
 
+// Main content
 [data-gu-name="body"] {
   #maincontent {
 
+    // Content div
     > :first-child {
       padding: 2rem 0;
 
-      >*:not(blockquote) {
+      //Intro text (first 3 para)
+      >:nth-child(-n + 4){
       padding: 0 2rem;
       }
 
@@ -4321,18 +4454,503 @@
       }
     }
 
+    //Quotation
     blockquote > p {
+      background-color:var(--light);
       color: var(--dark);
-      border-inline-start: 1rem solid var(--accent);
-      padding: 0.5rem;
+      border-inline-start: 1.5rem solid var(--accent);
+      padding: 0.5rem 2rem 0.6rem 0.5rem;
+      margin: 0 0 2rem 0;
 
+      //Quotation mark svg
       > svg {
         fill: var(--dark-accent);
+      }
+    }
+    
+    // First walk
+    .walk-1-container {
+      //Total height of sticky images
+      height: calc(100vh * 5 + 5rem);
+      position: relative;
+
+      // Sticky title
+      .sticky-title {
+        width: 100%;
+        height: 2rem;
+
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        left: 0;
+        z-index: 20;
+
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 0 0 0 1rem;
+        background-color: var(--light);
+        border-inline-start: 1rem solid var(--accent);
+        
+        .num {
+          font-size: 1.2rem;
+          font-weight: 800;
+          color: var(--dark);
+          z-index: 1;
+        }
+
+        .txt {
+          font-size: 0.75rem;
+          text-transform: uppercase;
+          letter-spacing: 0.25rem;
+          color: var(--dark);
+        }
+      }
+
+      // Map
+      .map-container {
+        position: absolute;
+        top: 100vh;
+        left: calc(50% - 10rem);
+        z-index: 10;
+
+        width: 20rem;
+        height: 20rem;
+        background-color: var(--background-overlay);
+
+        .map {
+          width: 100%;
+          height: 100%;
+          padding: 1rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+
+          .map-svg {
+            width: 100%;
+            height: 100%;
+          }
+
+          .route-svg {
+            width: 4rem;
+            height: 4rem;
+            position: absolute;
+            bottom: 5rem;
+            left: 3.5rem;
+          }
+        }
+      }
+
+      //SVG path that follows scroll
+      .route-container {
+        position: sticky;
+        position: -webkit-sticky;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: calc(52% - 40vh);
+        left: calc(100% - 7rem);
+        width: 6rem;
+        height: 80vh;
+        z-index: 10;
+        margin: 2rem 0 5rem 0;
+        background-color: var(--background-overlay);
+
+        .path-svg {
+          width: 4rem;
+          height: calc(100% - 2rem);
+        }
+
+        .marker-svg {
+          width: 1.5rem;
+          height: 1.5rem;
+
+          position: absolute;
+        }
+      }
+
+      // Title
+      h2 {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        z-index: 10;
+        color: var(--light);
+      }
+
+        // Figure container for sticky images
+        figure {
+          position: sticky;
+          position: -webkit-sticky;
+          top: 0;
+          margin: 0;
+
+          // Div wrapper
+          div {
+            height: 100vh;
+
+            picture {
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+
+          //Caption
+          figcaption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin: 1rem 0.25rem 0.25rem 0.25rem;
+            padding: 0.25rem;
+            color: var(--light);
+            background-color: var(--background-overlay);
+
+            svg {
+              fill: var(--light);
+            }
+          }
+        }
+
+        //First image length
+        figure:nth-of-type(1) {
+          height: 175vh;
+        }
+
+        // Second image length
+        figure:nth-of-type(2) {
+          height: 130vh;
+        }
+
+        // Third image length
+        figure:nth-of-type(3) {
+          height: 100vh;
+        }
+
+        // Text for Walk 1
+        > p {
+          position: absolute;
+          top: calc(200vh + 4rem);
+          left: 1rem;
+
+          width: 60%;
+          padding: 0.25rem;
+
+          background-color: var(--background-overlay);
+          color: var(--light);
+        }
+    }
+    
+  }
+}
+
+/* Sizing */
+
+@media (min-width: 740px){
+  [data-layout="StandardLayout"] {
+
+    // Main page padding
+    article > div:first-child {
+      max-width: none;
+    }
+  }
+}
+
+@media (min-width: 740px) and (max-width: 979px) {
+  .dcr-pnit1n {
+    padding-right: 0;
+  }
+}
+
+// Desktop styling
+@media (min-width: 980px){
+  [data-gu-name="media"] {
+    // Intro image
+    div:first-child {
+      max-width: none;
+    }
+  }
+
+  [data-gu-name="body"] {
+    div:first-child {
+      width: 100%;
+    }
+  }
+
+  // Hero
+  [data-gu-name="headline"] {
+    height: calc(100vh - 17.625rem);
+    padding: 4rem 2.5rem;
+
+    .animation-container {
+      top: 1rem;
+      right: 2rem;
+
+      .icon-sun {
+        width: 10rem;
+        height: 11rem;
+      }
+    }
+
+    h1 {
+      padding: 0;
+      font-size: 2.5rem;
+    }
+  }
+
+  // Socials
+  [data-gu-name="meta"] {
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+
+    div {
+      color: var(--dark);
+      border-color: var(--dark);
+    }
+
+    span {
+      border-color: var(--dark);
+    }
+
+    svg {
+      fill: var(--dark);
+    }
+  }
+
+  [data-gu-name="standfirst"] {
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  // Main content
+  [data-gu-name="body"] {
+    #maincontent {
+
+      // Content div
+      > :first-child {
+        padding: 4rem 0;
+
+        //Intro text (first 3 para)
+        >:nth-child(-n + 4){
+        padding: 0 8rem;
+        }
+
+        p {
+          line-height: 2rem;
+          margin-bottom: 2.5rem;
+        }
+
+        &:first-letter {
+          font-size: 4rem;
+          font-weight: 600;
+          color:var(--dark-accent);
+        }
+      }
+
+      //Quotation
+      blockquote > p {
+        border-inline-start: 2.5rem solid var(--accent);
+        padding: 2rem 3rem 3rem 3rem;
+
+        //Quotation mark svg
+        > svg {
+          margin-right: 1rem;
+        }
+      }
+      
+      // First walk
+      .walk-1-container {
+        //Total height of sticky images
+        height: calc(100vh * 5 + 5rem);
+
+        // Sticky title
+        .sticky-title {
+          height: 2rem;
+          gap: 1rem;
+          padding: 0 0 0 1rem;
+          border-inline-start: 1rem solid var(--accent);
+          
+          .num {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: var(--dark);
+            z-index: 1;
+          }
+
+          .txt {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.25rem;
+            color: var(--dark);
+          }
+        }
+
+        // Map
+        .map-container {
+          top: 100vh;
+          left: calc(50% - 20rem);
+
+          width: 40rem;
+          height: 40rem;
+        }
+      }
+    }
+  }
+          /* background-color: var(--background-overlay);
+
+          .map {
+            width: 100%;
+            height: 100%;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+            .map-svg {
+              width: 100%;
+              height: 100%;
+            }
+
+            .route-svg {
+              width: 4rem;
+              height: 4rem;
+              position: absolute;
+              bottom: 5rem;
+              left: 3.5rem;
+            }
+          }
+        }
+
+        //SVG path that follows scroll
+        .route-container {
+          position: sticky;
+          position: -webkit-sticky;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          top: calc(52% - 40vh);
+          left: calc(100% - 7rem);
+          width: 6rem;
+          height: 80vh;
+          z-index: 10;
+          margin: 2rem 0 5rem 0;
+          background-color: var(--background-overlay);
+
+          .path-svg {
+            width: 4rem;
+            height: calc(100% - 2rem);
+          }
+
+          .marker-svg {
+            width: 1.5rem;
+            height: 1.5rem;
+
+            position: absolute;
+          }
+        }
+
+        // Title
+        h2 {
+          top: 4rem;
+          font-size: 3.5rem;
+          line-height: 150%;
+          padding: 0 2rem;
+        }
+
+          // Figure container for sticky images
+          figure {
+
+            //Caption
+            figcaption {
+              margin: 1rem 0.25rem 0.25rem 0.25rem;
+              padding: 0.25rem;
+
+            }
+          }
+
+          //First image length
+          figure:nth-of-type(1) {
+            height: 175vh;
+          }
+
+          // Second image length
+          figure:nth-of-type(2) {
+            height: 130vh;
+          }
+
+          // Third image length
+          figure:nth-of-type(3) {
+            height: 100vh;
+          }
+
+          // Text for Walk 1
+          > p {
+            position: absolute;
+            top: calc(200vh + 4rem);
+            left: 1rem;
+
+            width: 60%;
+            padding: 0.25rem;
+
+            background-color: var(--background-overlay);
+            color: var(--light);
+          }
+      }
+    }
+  } */
+}
+
+@media (max-width: 1139px){
+  @supports (display: grid){
+      [data-layout="StandardLayout"] {
+
+      // Main page columns
+      article > div:first-child > div:first-child {
+        grid-template-columns: 1fr;
       }
     }
   }
 }
 
+@media (max-width: 1299px){
+  @supports (display: grid){
+      [data-layout="StandardLayout"] {
 
+      // Main page columns
+      article > div:first-child > div:first-child {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}
 
+//Desktop layout
+@media (min-width: 1300px){
+  @supports (display: grid){
+      [data-layout="StandardLayout"] {
+
+      // Main page columns
+      article > div:first-child > div:first-child {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}
+
+@media (min-width: 1500px){
+  @supports (display: grid){
+      [data-layout="StandardLayout"] {
+
+      // Main page columns
+      article > div:first-child > div:first-child {
+        max-width: 90rem;
+        margin: auto;
+      }
+    }
+  }
+}
 </style>
