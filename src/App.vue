@@ -4666,18 +4666,13 @@ onBeforeUnmount(() => {
 }
 
 // Intro image
-/* [data-gu-name="media"] {
-  figure {
-      #img-1 {
-        width: 100%;
-
-      picture {
-        width: 120%;
-        background-attachment: fixed;
-      }
+  [data-gu-name="media"] {
+    picture,
+    figcaption {
+      max-width: 80vw;
+      margin: auto;
     }
   }
-} */
 
 [data-gu-name="lines"] {
   display: none;
@@ -4747,13 +4742,13 @@ onBeforeUnmount(() => {
         border-inline-start: 1rem solid var(--accent);
         
         .num {
-          font-size: 1.2rem;
+          font-size: 1.4rem;
           font-weight: 800;
           color: var(--dark);
         }
 
         .txt {
-          font-size: 0.75rem;
+          font-size: 0.85rem;
           text-transform: uppercase;
           letter-spacing: 0.25rem;
           color: var(--dark);
@@ -4843,6 +4838,7 @@ onBeforeUnmount(() => {
         padding: 0 2rem;
         z-index: 20;
         color: var(--light);
+        font-size: 2rem;
       }
 
         // Figure container for sticky images
@@ -5203,6 +5199,20 @@ onBeforeUnmount(() => {
     padding: 2rem 2rem;
     display: flex;
     justify-content: center;
+
+    > div > p {
+      font-size: 1.6rem;
+      line-height: 2rem;
+      text-align: center;
+    }
+  }
+
+  [data-gu-name="media"] {
+    picture,
+    figcaption {
+      max-width: 60vw;
+      margin: auto;
+    }
   }
 
   // Main content
