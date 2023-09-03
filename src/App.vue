@@ -1939,7 +1939,22 @@
               <AnimationTransition
               name="hero"
               class="animation-container">
-                <img class="icon-sun" alt="Yellow stylised sun" src="@/assets/sun.png"/>
+                <img class="icon-sun" alt="Yellow stylised sun" src="@/assets/sun.svg"/>
+
+                <img class="icon-bird-big" src="@/assets/birds-big.svg" alt="Abstract pair of birds flying">
+
+                <img class="icon-bird-sml" src="@/assets/birds-sml.svg" alt="Abstract pair of birds flying">
+
+                <img class="icon-bird-tiny" src="@/assets/birds-sml.svg" alt="Abstract pair of birds flying">
+
+                <img class="icon-scroll" src="@/assets/scroll.svg" alt="Mouse with scroll indicators">
+
+                <img class="icon-rock-sml" src="@/assets/rocks-sml.svg" alt="Abstract cliff face">
+
+                <img class="icon-lighthouse" src="@/assets/lighthouse.svg" alt="Abstract cliff face">
+
+                <img class="icon-rock-big" src="@/assets/rocks-big.svg" alt="Abstract cliff face">
+
               </AnimationTransition>
               
               <div class="dcr-14emo0l">
@@ -2064,6 +2079,9 @@
                 </div>
               </div>
             </aside>
+
+            <!-- Start of article -->
+
             <div data-gu-name="body" class="dcr-ch7w1w">
               <div class="dcr-rymdj4">
                 <div id="maincontent" class="dcr-pnit1n">
@@ -2126,7 +2144,8 @@
                     </p>
                     </AnimationTransition>
 
-                    <blockquote class="dcr-1rsh03a">
+                    <AnimationTransition name="fade">
+                      <blockquote class="dcr-1rsh03a">
                       <p>
                         <svg viewBox="4 4 24 16" class="dcr-cumn2r">
                           <path
@@ -2138,10 +2157,12 @@
                         giant jigsaw together.
                       </p>
                     </blockquote>
+                    </AnimationTransition>
+                    
 
                     <!-- Walk 1 Section
                     Added HTML: container, title, map, route -->
-                    <div class="walk-1-container">
+                    <div class="walk-container walk-1">
 
                       <a class="map-container" href="https://www.southwestcoastpath.org.uk/walksdb/160/" target="_blank" rel="noopener noreferrer">
                         <div class="map">
@@ -2154,6 +2175,7 @@
                       <h2 id="1-marazion-to-lizard-point-cornwall-21-miles">
                         1. Marazion to Lizard Point, Cornwall, 21 miles
                       </h2>
+
                       <figure
                         id="66f8a9d4-04ad-44bc-b3e6-95c3128d6d2e"
                         data-spacefinder-role="showcase"
@@ -2255,7 +2277,16 @@
                         width="64" height="541" viewBox="0 0 64 541" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path
                           ref="pathRef"
-                          d="M54.7727 3C36.3237 10.9874 0.809279 43.6434 6.34399 110.369C11.8787 177.094 28.0874 201.148 39.9476 223.728C63.6677 268.887 76.3184 369.712 28.0874 400.679C-20.1437 431.645 10.9562 528.784 39.9476 538" stroke="#ACFFFF" stroke-width="5" stroke-dasharray="10 10"/>
+                          d="M54.7727 3C36.3237 10.9874 0.809279 43.6434 6.34399 110.369C11.8787 177.094 28.0874 201.148 39.9476 223.728C63.6677 268.887 76.3184 369.712 28.0874 400.679C-20.1437 431.645 10.9562 528.784 39.9476 538" stroke="#AED5FF" stroke-width="5" stroke-dasharray="10 10"/>
+                        </svg>
+
+                        <svg
+                        class="path-svg-opaque"
+                        src="@/assets/path.svg"
+                        alt="Dotted line of path from Marazion to Lizard Point"
+                        width="64" height="541" viewBox="0 0 64 541" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                          d="M54.7727 3C36.3237 10.9874 0.809279 43.6434 6.34399 110.369C11.8787 177.094 28.0874 201.148 39.9476 223.728C63.6677 268.887 76.3184 369.712 28.0874 400.679C-20.1437 431.645 10.9562 528.784 39.9476 538" stroke="#AED5FF" stroke-width="5" stroke-dasharray="10 10"/>
                         </svg>
 
                         <!-- <img class="marker-svg" src="@/assets/marker.svg" alt="Circle waymarker on path"> -->
@@ -2322,6 +2353,7 @@
                           Photograph: Neil Bussey/Getty Images
                         </figcaption>
                       </figure>
+
                       <figure
                         id="20d99e5d-16b9-4044-807f-810e22f2cb2d"
                         data-spacefinder-role="inline"
@@ -2382,6 +2414,7 @@
                           Photograph: Chris Lewington/Alamy
                         </figcaption>
                       </figure>
+
                       <p class="dcr-1kas69x">
                         The tiny village of Gunwalloe, famed for smuggling and
                         shipwrecks in westerly gales, is a spectacular base from
@@ -2443,553 +2476,626 @@
                     </div>
 
                     <!-- Walk 2 Section,
-                    Added HTML, container -->
+                    Added HTML, container, title, map, route -->
+                    <div class="walk-container walk-2">
 
-                    <h2
-                      id="2-abbotsbury-to-lulworth-dorset-jurassic-coast-25-miles-plus-the-13-mile-isle-of-portland-circuit"
-                    >
-                      2. Abbotsbury to Lulworth, Dorset – Jurassic Coast, 25
-                      miles plus the 13-mile Isle of Portland circuit
-                    </h2>
-                    <figure
-                      id="12b9d3e2-8967-4a1c-bce3-708dd511dcf2"
-                      data-spacefinder-role="inline"
-                      data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
-                      class="dcr-173mewl"
-                    >
-                      <div id="img-5" class="dcr-1t8m8f2">
-                        <picture class="dcr-evn1e9"
-                          ><source
-                            srcset="
-                              https://i.guim.co.uk/img/media/81739118ab25180cd73e3d9a7d526b1b3d52f281/0_468_3744_4680/master/3744.jpg?width=620&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/81739118ab25180cd73e3d9a7d526b1b3d52f281/0_468_3744_4680/master/3744.jpg?width=620&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 660px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/81739118ab25180cd73e3d9a7d526b1b3d52f281/0_468_3744_4680/master/3744.jpg?width=605&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/81739118ab25180cd73e3d9a7d526b1b3d52f281/0_468_3744_4680/master/3744.jpg?width=605&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 480px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/81739118ab25180cd73e3d9a7d526b1b3d52f281/0_468_3744_4680/master/3744.jpg?width=445&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/81739118ab25180cd73e3d9a7d526b1b3d52f281/0_468_3744_4680/master/3744.jpg?width=445&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 320px)" />
-                          <img
-                            alt="View over Abbotsbury Church and the fleet, Dorset, England2AYGEJB View over Abbotsbury Church and the fleet, Dorset, England"
-                            src="https://i.guim.co.uk/img/media/81739118ab25180cd73e3d9a7d526b1b3d52f281/0_468_3744_4680/master/3744.jpg?width=445&amp;dpr=1&amp;s=none"
-                            width="445"
-                            height="556.25"
-                            loading="lazy"
-                            class="dcr-evn1e9"
-                        /></picture>
-                      </div>
-                      <figcaption class="dcr-o6npt4">
-                        <span class="dcr-17eagbs"
-                          ><svg width="18" height="13" viewBox="0 0 18 13">
-                            <path
-                              d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
-                            /></svg></span
-                        ><span class="dcr-1y4fm6e"
-                          >View over Abbotsbury Church and the fleet, Dorset,
-                          England<br />2AYGEJB View over Abbotsbury Church and
-                          the fleet, Dorset, England</span
-                        >
-                        Photograph: Guy Edwardes Photography/Alamy
-                      </figcaption>
-                    </figure>
-                    <figure
-                      id="66f2b94f-9ef4-486c-8611-12b0f54e3925"
-                      data-spacefinder-role="showcase"
-                      data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
-                      class="dcr-5h0uf4"
-                    >
-                      <div id="img-6" class="dcr-1t8m8f2">
-                        <picture class="dcr-evn1e9"
-                          ><source
-                            srcset="
-                              https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=880&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 1300px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 1300px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=880&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 1300px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=800&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 1140px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 1140px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=800&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 1140px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=640&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 980px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 980px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=640&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 980px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=620&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=620&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 660px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=605&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=605&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 480px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=445&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=445&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 320px)" />
-                          <img
-                            alt="Sand, sea and arched cliff at Lulworth Cove"
-                            src="https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=445&amp;dpr=1&amp;s=none"
-                            width="445"
-                            height="267.0158419366323"
-                            loading="lazy"
-                            class="dcr-evn1e9"
-                        /></picture>
-                      </div>
-                      <figcaption class="dcr-1xuk4sx">
-                        <span class="dcr-17eagbs"
-                          ><svg width="18" height="13" viewBox="0 0 18 13">
-                            <path
-                              d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
-                            /></svg></span
-                        ><span class="dcr-1y4fm6e">Lulworth Cove.</span>
-                        Photograph: PJ Probie/Getty Images
-                      </figcaption>
-                    </figure>
-                    <figure
-                      id="09dc6c5f-0528-48f8-bc3a-218d0984ecec"
-                      data-spacefinder-role="inline"
-                      data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
-                      class="dcr-173mewl"
-                    >
-                      <div id="img-7" class="dcr-1t8m8f2">
-                        <picture class="dcr-evn1e9"
-                          ><source
-                            srcset="
-                              https://i.guim.co.uk/img/media/4259830ad4508a503ddb6a13f9744d85b93b255b/0_302_2848_3560/master/2848.jpg?width=620&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/4259830ad4508a503ddb6a13f9744d85b93b255b/0_302_2848_3560/master/2848.jpg?width=620&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 660px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/4259830ad4508a503ddb6a13f9744d85b93b255b/0_302_2848_3560/master/2848.jpg?width=605&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/4259830ad4508a503ddb6a13f9744d85b93b255b/0_302_2848_3560/master/2848.jpg?width=605&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 480px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/4259830ad4508a503ddb6a13f9744d85b93b255b/0_302_2848_3560/master/2848.jpg?width=445&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/4259830ad4508a503ddb6a13f9744d85b93b255b/0_302_2848_3560/master/2848.jpg?width=445&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 320px)" />
-                          <img
-                            alt
-                            src="https://i.guim.co.uk/img/media/4259830ad4508a503ddb6a13f9744d85b93b255b/0_302_2848_3560/master/2848.jpg?width=445&amp;dpr=1&amp;s=none"
-                            width="445"
-                            height="556.25"
-                            loading="lazy"
-                            class="dcr-evn1e9"
-                        /></picture>
-                      </div>
-                      <figcaption class="dcr-o6npt4">
-                        <span class="dcr-17eagbs"
-                          ><svg width="18" height="13" viewBox="0 0 18 13">
-                            <path
-                              d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
-                            /></svg></span
-                        ><span class="dcr-1y4fm6e"
-                          >Chesil Beach on the World Heritage Jurassic Coastline
-                          in Dirset</span
-                        >
-                        Photograph: Graham Custance Photography/Getty Images
-                      </figcaption>
-                    </figure>
-                    <p class="dcr-1kas69x">
-                      This spectacular stretch of the Dorset coastline combines
-                      jagged cliffs and the wildly beautiful Isle of Portland, a
-                      four-mile-long wedge of land joined to the coast by Chesil
-                      Beach. Following the path from the historic village of
-                      Abbotsbury gives amazing views of the extraordinary
-                      18-mile spit of sand, with a pleasingly flat stretch along
-                      the tranquil Fleet lagoon, before the landscape urbanises
-                      into Weymouth and Ferrybridge.
-                    </p>
-                    <p class="dcr-1kas69x">
-                      To be at the heart of this stretch, book one of the cosy
-                      rooms at Turnstones (doubles from £70, B&amp;B,
-                      <a
-                        href="http://turnstones.net/"
-                        data-link-name="in body link"
-                        >turnstones.net</a
-                      >), a couple of minutes’ walk from Chesil’s stunning beach
-                      – ideal if you are planning to do to the circular route
-                      around the Isle of Portland. If you’re travelling with
-                      family, Moonfleet Manor makes a great base and offers a
-                      busy programme of activities to combine with walking, and
-                      children’s teas and clubs to give parents a little time
-                      off (doubles from £220, B&amp;B,
-                      <a
-                        href="https://moonfleetmanor.co.uk/"
-                        data-link-name="in body link"
-                        >moonfleetmanor.co.uk</a
-                      >). Dogs are welcome here, too.
-                    </p>
-                    <p class="dcr-1kas69x">
-                      The stretch from Ferrybridge to Lulworth is more taxing,
-                      but the views as you approach Lulworth – back to the
-                      extraordinary
-                      <a
-                        href="https://www.visit-dorset.com/listing/durdle-door/126276301/"
-                        data-link-name="in body link"
-                        >Durdle Door</a
+                      <a class="map-container" href="https://www.southwestcoastpath.org.uk/walk-coast-path/south-west-coast-path-national-trail/short-breaks/7-10-day-breaks/jurassic-coast/" target="_blank" rel="noopener noreferrer">
+                        <div class="map">
+                          <img class="map-svg" src="@/assets/route-2.svg" alt="Outline of map Dorset">
+                        </div>
+                      </a>
+
+                      <h2
+                        id="2-abbotsbury-to-lulworth-dorset-jurassic-coast-25-miles-plus-the-13-mile-isle-of-portland-circuit"
                       >
-                      – make the steep ascents and descents worth it. Reward
-                      yourself with a hearty lunch at the 16th-century Castle
-                      Inn in Lulworth (<a
-                        href="https://butcombe.com/"
-                        data-link-name="in body link"
-                        >butcombe.com</a
-                      >) – but do book ahead if you’re planning to visit at the
-                      weekend, as it gets busy.
-                    </p>
-                    <blockquote class="dcr-1rsh03a">
-                      <p>
-                        <svg viewBox="4 4 24 16" class="dcr-cumn2r">
-                          <path
-                            d="M9.2776 8H14.0473C13.4732 12.5489 12.9653 17.0095 12.7445 22H4C4.79495 17.142 6.4511 12.5489 9.2776 8ZM20.3852 8H25.0887C24.5808 12.5489 24.0067 17.0095 23.7859 22H15.0635C15.9688 17.142 17.5587 12.5489 20.3852 8Z"
-                          ></path></svg
-                        >We suggest a 52-day itinerary if you want to do the
-                        whole thing. But many people come and do a section each
-                        year, making it an annual weekend with friends or family
+                        2. Abbotsbury to Lulworth, Dorset – Jurassic Coast, 25
+                        miles plus the 13-mile Isle of Portland circuit
+                      </h2>
+
+                      <figure
+                        id="12b9d3e2-8967-4a1c-bce3-708dd511dcf2"
+                        data-spacefinder-role="inline"
+                        data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
+                        class="dcr-173mewl"
+                      >
+                        <div id="img-5" class="dcr-1t8m8f2">
+                          <picture class="dcr-evn1e9"
+                            ><source
+                              srcset="
+                                https://i.guim.co.uk/img/media/81739118ab25180cd73e3d9a7d526b1b3d52f281/0_468_3744_4680/master/3744.jpg?width=620&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/81739118ab25180cd73e3d9a7d526b1b3d52f281/0_468_3744_4680/master/3744.jpg?width=620&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 660px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/81739118ab25180cd73e3d9a7d526b1b3d52f281/0_468_3744_4680/master/3744.jpg?width=605&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/81739118ab25180cd73e3d9a7d526b1b3d52f281/0_468_3744_4680/master/3744.jpg?width=605&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 480px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/81739118ab25180cd73e3d9a7d526b1b3d52f281/0_468_3744_4680/master/3744.jpg?width=445&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/81739118ab25180cd73e3d9a7d526b1b3d52f281/0_468_3744_4680/master/3744.jpg?width=445&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 320px)" />
+                            <img
+                              alt="View over Abbotsbury Church and the fleet, Dorset, England2AYGEJB View over Abbotsbury Church and the fleet, Dorset, England"
+                              src="https://i.guim.co.uk/img/media/81739118ab25180cd73e3d9a7d526b1b3d52f281/0_468_3744_4680/master/3744.jpg?width=445&amp;dpr=1&amp;s=none"
+                              width="445"
+                              height="556.25"
+                              loading="lazy"
+                              class="dcr-evn1e9"
+                          /></picture>
+                        </div>
+                        <figcaption class="dcr-o6npt4">
+                          <span class="dcr-17eagbs"
+                            ><svg width="18" height="13" viewBox="0 0 18 13">
+                              <path
+                                d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
+                              /></svg></span
+                          ><span class="dcr-1y4fm6e"
+                            >View over Abbotsbury Church and the fleet, Dorset,
+                            England<br />2AYGEJB View over Abbotsbury Church and
+                            the fleet, Dorset, England</span
+                          >
+                          Photograph: Guy Edwardes Photography/Alamy
+                        </figcaption>
+                      </figure>
+
+                      <div class="sticky-title">
+                        <p class="num">2</p>
+                        <p class="txt">Abbotsbury to Lulworth</p>
+                      </div>
+
+                      <div class="route-container">
+                        <svg
+                        class="path-svg"
+                        src="@/assets/path.svg"
+                        alt="Dotted line of path from Abbotsbury to Lulworth"
+                        width="83" height="854" viewBox="0 0 83 854" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M80.0593 2C59.3926 37.1667 -11.2408 121 5.55922 139C26.5592 161.5 57.0587 202.5 46.5589 297C32.994 419.086 23.4922 469.798 46.5592 539C91.0586 672.5 5.55922 703 5.55922 853.5" stroke="#AED5FF" stroke-width="5" stroke-dasharray="10 10"/>
+                        </svg>
+
+                      </div>
+
+                      <figure
+                        id="66f2b94f-9ef4-486c-8611-12b0f54e3925"
+                        data-spacefinder-role="showcase"
+                        data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
+                        class="dcr-5h0uf4"
+                      >
+                        <div id="img-6" class="dcr-1t8m8f2">
+                          <picture class="dcr-evn1e9"
+                            ><source
+                              srcset="
+                                https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=880&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 1300px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 1300px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=880&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 1300px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=800&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 1140px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 1140px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=800&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 1140px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=640&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 980px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 980px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=640&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 980px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=620&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=620&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 660px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=605&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=605&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 480px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=445&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=445&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 320px)" />
+                            <img
+                              alt="Sand, sea and arched cliff at Lulworth Cove"
+                              src="https://i.guim.co.uk/img/media/e3de95ed2330aec514d3d8e8cb58a637077f435a/0_0_5618_3371/master/5618.jpg?width=445&amp;dpr=1&amp;s=none"
+                              width="445"
+                              height="267.0158419366323"
+                              loading="lazy"
+                              class="dcr-evn1e9"
+                          /></picture>
+                        </div>
+                        <figcaption class="dcr-1xuk4sx">
+                          <span class="dcr-17eagbs"
+                            ><svg width="18" height="13" viewBox="0 0 18 13">
+                              <path
+                                d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
+                              /></svg></span
+                          ><span class="dcr-1y4fm6e">Lulworth Cove.</span>
+                          Photograph: PJ Probie/Getty Images
+                        </figcaption>
+                      </figure>
+                      <figure
+                        id="09dc6c5f-0528-48f8-bc3a-218d0984ecec"
+                        data-spacefinder-role="inline"
+                        data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
+                        class="dcr-173mewl"
+                      >
+                        <div id="img-7" class="dcr-1t8m8f2">
+                          <picture class="dcr-evn1e9"
+                            ><source
+                              srcset="
+                                https://i.guim.co.uk/img/media/4259830ad4508a503ddb6a13f9744d85b93b255b/0_302_2848_3560/master/2848.jpg?width=620&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/4259830ad4508a503ddb6a13f9744d85b93b255b/0_302_2848_3560/master/2848.jpg?width=620&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 660px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/4259830ad4508a503ddb6a13f9744d85b93b255b/0_302_2848_3560/master/2848.jpg?width=605&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/4259830ad4508a503ddb6a13f9744d85b93b255b/0_302_2848_3560/master/2848.jpg?width=605&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 480px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/4259830ad4508a503ddb6a13f9744d85b93b255b/0_302_2848_3560/master/2848.jpg?width=445&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/4259830ad4508a503ddb6a13f9744d85b93b255b/0_302_2848_3560/master/2848.jpg?width=445&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 320px)" />
+                            <img
+                              alt
+                              src="https://i.guim.co.uk/img/media/4259830ad4508a503ddb6a13f9744d85b93b255b/0_302_2848_3560/master/2848.jpg?width=445&amp;dpr=1&amp;s=none"
+                              width="445"
+                              height="556.25"
+                              loading="lazy"
+                              class="dcr-evn1e9"
+                          /></picture>
+                        </div>
+                        <figcaption class="dcr-o6npt4">
+                          <span class="dcr-17eagbs"
+                            ><svg width="18" height="13" viewBox="0 0 18 13">
+                              <path
+                                d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
+                              /></svg></span
+                          ><span class="dcr-1y4fm6e"
+                            >Chesil Beach on the World Heritage Jurassic Coastline
+                            in Dirset</span
+                          >
+                          Photograph: Graham Custance Photography/Getty Images
+                        </figcaption>
+                      </figure>
+                      <p class="dcr-1kas69x">
+                        This spectacular stretch of the Dorset coastline combines
+                        jagged cliffs and the wildly beautiful Isle of Portland, a
+                        four-mile-long wedge of land joined to the coast by Chesil
+                        Beach. Following the path from the historic village of
+                        Abbotsbury gives amazing views of the extraordinary
+                        18-mile spit of sand, with a pleasingly flat stretch along
+                        the tranquil Fleet lagoon, before the landscape urbanises
+                        into Weymouth and Ferrybridge.
                       </p>
-                    </blockquote>
-                    <h2
-                      id="3-perranporth-to-st-ives-cornwall-atlantic-coast-30-miles"
-                    >
-                      3. Perranporth to St Ives, Cornwall Atlantic Coast, 30
-                      miles
-                    </h2>
-                    <figure
-                      id="88381785-3b08-4aeb-9698-221c89c6bf53"
-                      data-spacefinder-role="inline"
-                      data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
-                      class="dcr-173mewl"
-                    >
-                      <div id="img-8" class="dcr-1t8m8f2">
-                        <picture class="dcr-evn1e9"
-                          ><source
-                            srcset="
-                              https://i.guim.co.uk/img/media/7451ee1da658b50ea8c190187ddbdb95dfbe1bb4/0_333_2667_3333/master/2667.jpg?width=620&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/7451ee1da658b50ea8c190187ddbdb95dfbe1bb4/0_333_2667_3333/master/2667.jpg?width=620&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 660px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/7451ee1da658b50ea8c190187ddbdb95dfbe1bb4/0_333_2667_3333/master/2667.jpg?width=605&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/7451ee1da658b50ea8c190187ddbdb95dfbe1bb4/0_333_2667_3333/master/2667.jpg?width=605&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 480px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/7451ee1da658b50ea8c190187ddbdb95dfbe1bb4/0_333_2667_3333/master/2667.jpg?width=445&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/7451ee1da658b50ea8c190187ddbdb95dfbe1bb4/0_333_2667_3333/master/2667.jpg?width=445&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 320px)" />
-                          <img
-                            alt
-                            src="https://i.guim.co.uk/img/media/7451ee1da658b50ea8c190187ddbdb95dfbe1bb4/0_333_2667_3333/master/2667.jpg?width=445&amp;dpr=1&amp;s=none"
-                            width="445"
-                            height="556.1248593925759"
-                            loading="lazy"
-                            class="dcr-evn1e9"
-                        /></picture>
-                      </div>
-                      <figcaption class="dcr-o6npt4">
-                        <span class="dcr-17eagbs"
-                          ><svg width="18" height="13" viewBox="0 0 18 13">
-                            <path
-                              d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
-                            /></svg></span
-                        ><span class="dcr-1y4fm6e"
-                          >Path to Wheal Coates<br />Path from the cliff's edge
-                          to a part of the disued Wheal Coates tin mine</span
+                      <p class="dcr-1kas69x">
+                        To be at the heart of this stretch, book one of the cosy
+                        rooms at Turnstones (doubles from £70, B&amp;B,
+                        <a
+                          href="http://turnstones.net/"
+                          data-link-name="in body link"
+                          >turnstones.net</a
+                        >), a couple of minutes’ walk from Chesil’s stunning beach
+                        – ideal if you are planning to do to the circular route
+                        around the Isle of Portland. If you’re travelling with
+                        family, Moonfleet Manor makes a great base and offers a
+                        busy programme of activities to combine with walking, and
+                        children’s teas and clubs to give parents a little time
+                        off (doubles from £220, B&amp;B,
+                        <a
+                          href="https://moonfleetmanor.co.uk/"
+                          data-link-name="in body link"
+                          >moonfleetmanor.co.uk</a
+                        >). Dogs are welcome here, too.
+                      </p>
+                      <p class="dcr-1kas69x">
+                        The stretch from Ferrybridge to Lulworth is more taxing,
+                        but the views as you approach Lulworth – back to the
+                        extraordinary
+                        <a
+                          href="https://www.visit-dorset.com/listing/durdle-door/126276301/"
+                          data-link-name="in body link"
+                          >Durdle Door</a
                         >
-                        Photograph: alanqpr/Getty Images/iStockphoto
-                      </figcaption>
-                    </figure>
-                    <figure
-                      id="d5942df6-c34b-4c7a-b3e1-99911eb2a679"
-                      data-spacefinder-role="showcase"
-                      data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
-                      class="dcr-5h0uf4"
-                    >
-                      <div id="img-9" class="dcr-1t8m8f2">
-                        <picture class="dcr-evn1e9"
-                          ><source
-                            srcset="
-                              https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=880&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 1300px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 1300px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=880&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 1300px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=800&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 1140px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 1140px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=800&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 1140px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=640&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 980px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 980px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=640&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 980px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=620&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=620&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 660px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=605&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=605&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 480px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=445&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=445&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 320px)" />
-                          <img
-                            alt="Boats in St Ives Harbour"
-                            src="https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=445&amp;dpr=1&amp;s=none"
-                            width="445"
-                            height="267.02289094650206"
-                            loading="lazy"
-                            class="dcr-evn1e9"
-                        /></picture>
+                        – make the steep ascents and descents worth it. Reward
+                        yourself with a hearty lunch at the 16th-century Castle
+                        Inn in Lulworth (<a
+                          href="https://butcombe.com/"
+                          data-link-name="in body link"
+                          >butcombe.com</a
+                        >) – but do book ahead if you’re planning to visit at the
+                        weekend, as it gets busy.
+                      </p>
+
+                      <AnimationTransition name="fade" class="blockquote">
+                        <blockquote class="dcr-1rsh03a">
+                          <p>
+                            <svg viewBox="4 4 24 16" class="dcr-cumn2r">
+                              <path
+                                d="M9.2776 8H14.0473C13.4732 12.5489 12.9653 17.0095 12.7445 22H4C4.79495 17.142 6.4511 12.5489 9.2776 8ZM20.3852 8H25.0887C24.5808 12.5489 24.0067 17.0095 23.7859 22H15.0635C15.9688 17.142 17.5587 12.5489 20.3852 8Z"
+                              ></path></svg
+                            >We suggest a 52-day itinerary if you want to do the
+                            whole thing. But many people come and do a section each
+                            year, making it an annual weekend with friends or family
+                          </p>
+                        </blockquote>
+                      </AnimationTransition>
+                    </div>
+
+                    <!-- Walk 3 Section,
+                    Added HTML, container, title, map, route -->
+                    <div class="walk-container walk-3">
+
+                      <a class="map-container" href="https://www.southwestcoastpath.org.uk/walk-coast-path/trip-planning/SWCP-itinerary/" target="_blank" rel="noopener noreferrer">
+                        <div class="map">
+                          <img class="map-svg" src="@/assets/route-3.svg" alt="Outline of map Cornwall">
+                        </div>
+                      </a>
+
+                      <h2
+                        id="3-perranporth-to-st-ives-cornwall-atlantic-coast-30-miles"
+                      >
+                        3. Perranporth to St Ives, Cornwall Atlantic Coast, 30
+                        miles
+                      </h2>
+
+                      <figure
+                        id="88381785-3b08-4aeb-9698-221c89c6bf53"
+                        data-spacefinder-role="inline"
+                        data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
+                        class="dcr-173mewl"
+                      >
+                        <div id="img-8" class="dcr-1t8m8f2">
+                          <picture class="dcr-evn1e9"
+                            ><source
+                              srcset="
+                                https://i.guim.co.uk/img/media/7451ee1da658b50ea8c190187ddbdb95dfbe1bb4/0_333_2667_3333/master/2667.jpg?width=620&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/7451ee1da658b50ea8c190187ddbdb95dfbe1bb4/0_333_2667_3333/master/2667.jpg?width=620&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 660px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/7451ee1da658b50ea8c190187ddbdb95dfbe1bb4/0_333_2667_3333/master/2667.jpg?width=605&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/7451ee1da658b50ea8c190187ddbdb95dfbe1bb4/0_333_2667_3333/master/2667.jpg?width=605&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 480px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/7451ee1da658b50ea8c190187ddbdb95dfbe1bb4/0_333_2667_3333/master/2667.jpg?width=445&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/7451ee1da658b50ea8c190187ddbdb95dfbe1bb4/0_333_2667_3333/master/2667.jpg?width=445&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 320px)" />
+                            <img
+                              alt
+                              src="https://i.guim.co.uk/img/media/7451ee1da658b50ea8c190187ddbdb95dfbe1bb4/0_333_2667_3333/master/2667.jpg?width=445&amp;dpr=1&amp;s=none"
+                              width="445"
+                              height="556.1248593925759"
+                              loading="lazy"
+                              class="dcr-evn1e9"
+                          /></picture>
+                        </div>
+                        <figcaption class="dcr-o6npt4">
+                          <span class="dcr-17eagbs"
+                            ><svg width="18" height="13" viewBox="0 0 18 13">
+                              <path
+                                d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
+                              /></svg></span
+                          ><span class="dcr-1y4fm6e"
+                            >Path to Wheal Coates<br />Path from the cliff's edge
+                            to a part of the disued Wheal Coates tin mine</span
+                          >
+                          Photograph: alanqpr/Getty Images/iStockphoto
+                        </figcaption>
+                      </figure>
+
+                      <div class="sticky-title">
+                        <p class="num">3</p>
+                        <p class="txt">Perranporth to St Ives</p>
                       </div>
-                      <figcaption class="dcr-1xuk4sx">
-                        <span class="dcr-17eagbs"
-                          ><svg width="18" height="13" viewBox="0 0 18 13">
-                            <path
-                              d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
-                            /></svg></span
-                        ><span class="dcr-1y4fm6e">St Ives Harbour.</span>
-                        Photograph: Garry Strutt/Getty Images
-                      </figcaption>
-                    </figure>
-                    <figure
-                      id="f0514d1f-1f6c-4467-b8aa-87da4a6292eb"
-                      data-spacefinder-role="inline"
-                      data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
-                      class="dcr-173mewl"
-                    >
-                      <div id="img-10" class="dcr-1t8m8f2">
-                        <picture class="dcr-evn1e9"
-                          ><source
-                            srcset="
-                              https://i.guim.co.uk/img/media/9a084fb227ee5002f628c474344d080a26c840da/506_0_4189_2515/master/4189.jpg?width=620&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/9a084fb227ee5002f628c474344d080a26c840da/506_0_4189_2515/master/4189.jpg?width=620&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 660px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/9a084fb227ee5002f628c474344d080a26c840da/506_0_4189_2515/master/4189.jpg?width=605&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/9a084fb227ee5002f628c474344d080a26c840da/506_0_4189_2515/master/4189.jpg?width=605&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 480px)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/9a084fb227ee5002f628c474344d080a26c840da/506_0_4189_2515/master/4189.jpg?width=445&amp;dpr=2&amp;s=none
-                            "
-                            media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
-                          <source
-                            srcset="
-                              https://i.guim.co.uk/img/media/9a084fb227ee5002f628c474344d080a26c840da/506_0_4189_2515/master/4189.jpg?width=445&amp;dpr=1&amp;s=none
-                            "
-                            media="(min-width: 320px)" />
-                          <img
-                            alt
-                            src="https://i.guim.co.uk/img/media/9a084fb227ee5002f628c474344d080a26c840da/506_0_4189_2515/master/4189.jpg?width=445&amp;dpr=1&amp;s=none"
-                            width="445"
-                            height="267.16996896634043"
-                            loading="lazy"
-                            class="dcr-evn1e9"
-                        /></picture>
+
+                      <div class="route-container">
+
+                        <svg
+                        class="path-svg"
+                        src="@/assets/path.svg"
+                        alt="Dotted line of path from Perranporth to St Ives"
+                        width="90" height="846" viewBox="0 0 90 846" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M38.493 2C17.8264 37.1667 29.5208 113.071 38.493 136C141.993 400.5 48.9928 431 38.493 525.5C24.9282 647.586 54.4301 646.298 77.4971 715.5C121.996 849 3 695.5 3 846" stroke="#AED5FF" stroke-width="5" stroke-dasharray="10 10"/>
+                        </svg>
+
                       </div>
-                      <figcaption class="dcr-o6npt4">
-                        <span class="dcr-17eagbs"
-                          ><svg width="18" height="13" viewBox="0 0 18 13">
-                            <path
-                              d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
-                            /></svg></span
-                        ><span class="dcr-1y4fm6e"
-                          >Elevated views of the popular seaside resort of St.
-                          Ives, Cornwall, England, United Kingdom, Europe</span
-                        >
-                        Photograph: Andrew Michael/Getty Images/iStockphoto
-                      </figcaption>
-                    </figure>
-                    <p class="dcr-1kas69x">
-                      This 30-mile stretch of the trail, taking in rugged
-                      clifftops, historic mining landscapes as well as the
-                      picturesque town of St Ives, is a great choice for
-                      wildlife-lovers, with the chance to see seals, sunfish and
-                      basking sharks, along with razorbills and guillemots in
-                      the skies overhead.
-                    </p>
-                    <p class="dcr-1kas69x">
-                      The first section of the walk, from the seaside resort of
-                      <a
-                        href="https://www.southwestcoastpath.org.uk/walksdb/153/"
-                        data-link-name="in body link"
-                        >Perranporth to Portreath</a
-                      >, is reasonably strenuous, but the Portreath Arms
-                      (doubles from £120, B&amp;B,
-                      <a
-                        href="https://www.theportreatharms.co.uk/"
-                        data-link-name="in body link"
-                        >theportreatharms.co.uk</a
-                      >) is a cosy, restorative place to stay, with local fish
-                      and seafood given an Asian twist in the establishment’s
-                      charming restaurant. Portreath beach is a lovely place on
-                      which to stop and watch the surfers, who come at high tide
-                      for the reliable rollers.
-                    </p>
-                    <p class="dcr-1kas69x">
-                      From Portreath, the path leads deep into smuggling
-                      country; look out for the wonderfully named
-                      <a
-                        href="https://www.cornwalls.co.uk/photos/ralph-cupboard-4577.htm"
-                        data-link-name="in body link"
-                        >Ralph’s Cupboard</a
-                      >, a rocky cove favoured by smugglers as a place to hide
-                      their loot. Stop for a picnic in the rolling sand dunes at
-                      Gwithian, spot seals at Navax Point and enter Hayle via
-                      the town’s 100-year-old swing bridge.
-                    </p>
-                    <p class="dcr-1kas69x">
-                      If the budget stretches, a night or two at the lovely
-                      Carbis Bay (doubles from £345, B&amp;B,
-                      <a
-                        href="https://www.carbisbayhotel.co.uk/"
-                        data-link-name="in body link"
-                        >carbisbayhotel.co.uk</a
-                      >) is a great way to soothe walk-weary limbs.
-                    </p>
-                    <p class="dcr-1kas69x">
-                      St Ives is an easy walk across the sands, where the
-                      Porthminster Café, set right on the sands of Porthminster
-                      beach, does the best fish curry in town (<a
-                        href="https://www.porthminstercafe.co.uk/"
-                        data-link-name="in body link"
-                        >porthminstercafe.co.uk</a
-                      >).
-                    </p>
+
+                      <figure
+                        id="d5942df6-c34b-4c7a-b3e1-99911eb2a679"
+                        data-spacefinder-role="showcase"
+                        data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
+                        class="dcr-5h0uf4"
+                      >
+                        <div id="img-9" class="dcr-1t8m8f2">
+                          <picture class="dcr-evn1e9"
+                            ><source
+                              srcset="
+                                https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=880&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 1300px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 1300px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=880&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 1300px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=800&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 1140px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 1140px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=800&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 1140px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=640&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 980px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 980px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=640&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 980px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=620&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=620&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 660px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=605&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=605&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 480px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=445&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=445&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 320px)" />
+                            <img
+                              alt="Boats in St Ives Harbour"
+                              src="https://i.guim.co.uk/img/media/8268b78b060d8b11d54b5de22ae301d6fe0b8579/0_259_3888_2333/master/3888.jpg?width=445&amp;dpr=1&amp;s=none"
+                              width="445"
+                              height="267.02289094650206"
+                              loading="lazy"
+                              class="dcr-evn1e9"
+                          /></picture>
+                        </div>
+                        <figcaption class="dcr-1xuk4sx">
+                          <span class="dcr-17eagbs"
+                            ><svg width="18" height="13" viewBox="0 0 18 13">
+                              <path
+                                d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
+                              /></svg></span
+                          ><span class="dcr-1y4fm6e">St Ives Harbour.</span>
+                          Photograph: Garry Strutt/Getty Images
+                        </figcaption>
+                      </figure>
+                      <figure
+                        id="f0514d1f-1f6c-4467-b8aa-87da4a6292eb"
+                        data-spacefinder-role="inline"
+                        data-spacefinder-type="model.dotcomrendering.pageElements.ImageBlockElement"
+                        class="dcr-173mewl"
+                      >
+                        <div id="img-10" class="dcr-1t8m8f2">
+                          <picture class="dcr-evn1e9"
+                            ><source
+                              srcset="
+                                https://i.guim.co.uk/img/media/9a084fb227ee5002f628c474344d080a26c840da/506_0_4189_2515/master/4189.jpg?width=620&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 660px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 660px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/9a084fb227ee5002f628c474344d080a26c840da/506_0_4189_2515/master/4189.jpg?width=620&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 660px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/9a084fb227ee5002f628c474344d080a26c840da/506_0_4189_2515/master/4189.jpg?width=605&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 480px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 480px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/9a084fb227ee5002f628c474344d080a26c840da/506_0_4189_2515/master/4189.jpg?width=605&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 480px)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/9a084fb227ee5002f628c474344d080a26c840da/506_0_4189_2515/master/4189.jpg?width=445&amp;dpr=2&amp;s=none
+                              "
+                              media="(min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.25), (min-width: 320px) and (min-resolution: 120dpi)" />
+                            <source
+                              srcset="
+                                https://i.guim.co.uk/img/media/9a084fb227ee5002f628c474344d080a26c840da/506_0_4189_2515/master/4189.jpg?width=445&amp;dpr=1&amp;s=none
+                              "
+                              media="(min-width: 320px)" />
+                            <img
+                              alt
+                              src="https://i.guim.co.uk/img/media/9a084fb227ee5002f628c474344d080a26c840da/506_0_4189_2515/master/4189.jpg?width=445&amp;dpr=1&amp;s=none"
+                              width="445"
+                              height="267.16996896634043"
+                              loading="lazy"
+                              class="dcr-evn1e9"
+                          /></picture>
+                        </div>
+                        <figcaption class="dcr-o6npt4">
+                          <span class="dcr-17eagbs"
+                            ><svg width="18" height="13" viewBox="0 0 18 13">
+                              <path
+                                d="M18 3.5v8l-1.5 1.5h-15l-1.5-1.5v-8l1.5-1.5h3.5l2-2h4l2 2h3.5l1.5 1.5zm-9 7.5c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"
+                              /></svg></span
+                          ><span class="dcr-1y4fm6e"
+                            >Elevated views of the popular seaside resort of St.
+                            Ives, Cornwall, England, United Kingdom, Europe</span
+                          >
+                          Photograph: Andrew Michael/Getty Images/iStockphoto
+                        </figcaption>
+                      </figure>
+                      <p class="dcr-1kas69x">
+                        This 30-mile stretch of the trail, taking in rugged
+                        clifftops, historic mining landscapes as well as the
+                        picturesque town of St Ives, is a great choice for
+                        wildlife-lovers, with the chance to see seals, sunfish and
+                        basking sharks, along with razorbills and guillemots in
+                        the skies overhead.
+                      </p>
+                      <p class="dcr-1kas69x">
+                        The first section of the walk, from the seaside resort of
+                        <a
+                          href="https://www.southwestcoastpath.org.uk/walksdb/153/"
+                          data-link-name="in body link"
+                          >Perranporth to Portreath</a
+                        >, is reasonably strenuous, but the Portreath Arms
+                        (doubles from £120, B&amp;B,
+                        <a
+                          href="https://www.theportreatharms.co.uk/"
+                          data-link-name="in body link"
+                          >theportreatharms.co.uk</a
+                        >) is a cosy, restorative place to stay, with local fish
+                        and seafood given an Asian twist in the establishment’s
+                        charming restaurant. Portreath beach is a lovely place on
+                        which to stop and watch the surfers, who come at high tide
+                        for the reliable rollers.
+                      </p>
+                      <p class="dcr-1kas69x">
+                        From Portreath, the path leads deep into smuggling
+                        country; look out for the wonderfully named
+                        <a
+                          href="https://www.cornwalls.co.uk/photos/ralph-cupboard-4577.htm"
+                          data-link-name="in body link"
+                          >Ralph’s Cupboard</a
+                        >, a rocky cove favoured by smugglers as a place to hide
+                        their loot. Stop for a picnic in the rolling sand dunes at
+                        Gwithian, spot seals at Navax Point and enter Hayle via
+                        the town’s 100-year-old swing bridge.
+                      </p>
+                      <p class="dcr-1kas69x">
+                        If the budget stretches, a night or two at the lovely
+                        Carbis Bay (doubles from £345, B&amp;B,
+                        <a
+                          href="https://www.carbisbayhotel.co.uk/"
+                          data-link-name="in body link"
+                          >carbisbayhotel.co.uk</a
+                        >) is a great way to soothe walk-weary limbs.
+                      </p>
+                      <p class="dcr-1kas69x">
+                        St Ives is an easy walk across the sands, where the
+                        Porthminster Café, set right on the sands of Porthminster
+                        beach, does the best fish curry in town (<a
+                          href="https://www.porthminstercafe.co.uk/"
+                          data-link-name="in body link"
+                          >porthminstercafe.co.uk</a
+                        >).
+                      </p>
+
+                    </div>
+
+                    <!-- Walk 4 Section,
+                    Added HTML, container, title, map, route -->
+                    <div class="walk-container walk-4">
+
+                      <a class="map-container" href="https://www.southwestcoastpath.org.uk/walk-coast-path/south-west-coast-path-national-trail/short-breaks/2-3-day-breaks/combe-martin-braunton/" target="_blank" rel="noopener noreferrer">
+                        <div class="map">
+                          <img class="map-svg" src="@/assets/route-4.svg" alt="Outline of map of North Devon">
+                        </div>
+                      </a>
+
                     <h2 id="4-combe-martin-to-braunton-north-devon-28-miles">
                       4. Combe Martin to Braunton, North Devon, 28 miles
                     </h2>
+
                     <figure
                       id="ec090529-e49b-400c-8c98-3e939c31d360"
                       data-spacefinder-role="showcase"
@@ -3079,6 +3185,22 @@
                         Photograph: David Gibbeson/Alamy
                       </figcaption>
                     </figure>
+
+                    <div class="sticky-title">
+                      <p class="num">4</p>
+                      <p class="txt">Combe Martin to Braunton</p>
+                    </div>
+
+                    <div class="route-container">
+                      <svg 
+                        class="path-svg"
+                        src="@/assets/path.svg"
+                        alt="Dotted line of path from Combe Martin to Braunton"
+                        width="103" height="840" viewBox="0 0 103 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M67 2C46.3333 37.1667 50.2 110.5 67 128.5C88 151 13.5 254.5 44 297C115.62 396.798 -28.6865 530.138 44 524C156.5 514.5 76.0001 706 3 838.5" stroke="#AED5FF" stroke-width="5" stroke-dasharray="10 10"/>
+                      </svg>
+                    </div>
+
                     <figure
                       id="a4380385-ebec-4b28-875a-07faa37ad06a"
                       data-spacefinder-role="inline"
@@ -3142,6 +3264,7 @@
                         Photograph: Craig Joiner Photography/Alamy
                       </figcaption>
                     </figure>
+
                     <figure
                       id="3078dc3e-e976-4ffc-9964-8e668d1c7ac8"
                       data-spacefinder-role="inline"
@@ -3202,6 +3325,7 @@
                         Photograph: Robin Weaver/Alamy
                       </figcaption>
                     </figure>
+
                     <p class="dcr-1kas69x">
                       The spectacular beaches of the North Devon coast have
                       recently been designated the UK’s first National Surf
@@ -3214,6 +3338,7 @@
                       variety of flowering plants, butterflies and small
                       mammals.
                     </p>
+
                     <p class="dcr-1kas69x">
                       The stretch from Woolacombe to Braunton has some lovely
                       and easy clifftop walking, including around
@@ -3238,6 +3363,7 @@
                       >), offers excellent pub food and a laid-back surfing
                       atmosphere.
                     </p>
+
                     <p class="dcr-1kas69x">
                       If you fancy something more remote, Gordon’s Cabin, in the
                       tiny village of Mortehoe, is just a stone’s throw from
@@ -3249,6 +3375,7 @@
                         >nationaltrust.org.uk</a
                       >).
                     </p>
+
                     <p class="dcr-1kas69x">
                       From Croyde, the route climbs up and over towards Saunton,
                       and the wide Taw estuary that runs up to Braunton.If the
@@ -3262,20 +3389,37 @@
                       right on the banks of the estuary - is a lovely place for
                       dinner at the end of the day.
                     </p>
-                    <blockquote class="dcr-1rsh03a">
-                      <p>
-                        <svg viewBox="4 4 24 16" class="dcr-cumn2r">
-                          <path
-                            d="M9.2776 8H14.0473C13.4732 12.5489 12.9653 17.0095 12.7445 22H4C4.79495 17.142 6.4511 12.5489 9.2776 8ZM20.3852 8H25.0887C24.5808 12.5489 24.0067 17.0095 23.7859 22H15.0635C15.9688 17.142 17.5587 12.5489 20.3852 8Z"
-                          ></path></svg
-                        >Walking is such a companionable thing, and the pandemic
-                        really reinforced the importance of immersing ourselves
-                        in nature and taking time to enjoy the outdoors.
-                      </p>
-                    </blockquote>
+
+                    <AnimationTransition name="fade" class="blockquote">
+                      <blockquote class="dcr-1rsh03a">
+                        <p>
+                          <svg viewBox="4 4 24 16" class="dcr-cumn2r">
+                            <path
+                              d="M9.2776 8H14.0473C13.4732 12.5489 12.9653 17.0095 12.7445 22H4C4.79495 17.142 6.4511 12.5489 9.2776 8ZM20.3852 8H25.0887C24.5808 12.5489 24.0067 17.0095 23.7859 22H15.0635C15.9688 17.142 17.5587 12.5489 20.3852 8Z"
+                            ></path></svg
+                          >Walking is such a companionable thing, and the pandemic
+                          really reinforced the importance of immersing ourselves
+                          in nature and taking time to enjoy the outdoors.
+                        </p>
+                      </blockquote>
+                    </AnimationTransition>
+                    
+                    </div>
+
+                    <!-- Walk 5 Section,
+                    Added HTML, container, title, map, route -->
+                    <div class="walk-container walk-5">
+
+                      <a class="map-container" href="https://www.southwestcoastpath.org.uk/walksdb/175/" target="_blank" rel="noopener noreferrer">
+                        <div class="map">
+                          <img class="map-svg" src="@/assets/route-5.svg" alt="Outline of map South Devon">
+                        </div>
+                      </a>
+
                     <h2 id="5-torcross-to-brixham-south-devon-21-miles">
                       5. Torcross to Brixham, South Devon, 21 miles
                     </h2>
+
                     <figure
                       id="ca713363-884c-4588-a78b-aaeedc495bd8"
                       data-spacefinder-role="showcase"
@@ -3363,6 +3507,24 @@
                         Photograph: David J Chilvers/Alamy
                       </figcaption>
                     </figure>
+
+                    <div class="sticky-title">
+                      <p class="num">5</p>
+                      <p class="txt">Torcross to Brixham</p>
+                    </div>
+
+                    <div class="route-container">
+
+                      <svg
+                      class="path-svg"
+                      src="@/assets/path.svg"
+                      alt="Dotted line of path from Torcross to Brixham"
+                      width="86" height="840" viewBox="0 0 86 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M77.4971 2C56.8304 37.1667 29.5208 177.071 38.493 200C141.993 464.5 34.9969 251.5 24.4971 346C10.9322 468.086 1.43007 497.298 24.4971 566.5C68.9964 700 3 689.5 3 840" stroke="#AED5FF" stroke-width="5" stroke-dasharray="10 10"/>
+                      </svg>
+
+                    </div>
+
                     <figure
                       id="c10a2d66-8cfb-4ecc-85c0-815c7c7d803b"
                       data-spacefinder-role="inline"
@@ -3422,6 +3584,7 @@
                         Photograph: Garykingphotography/Getty Images
                       </figcaption>
                     </figure>
+
                     <figure
                       id="4fe13de2-e495-462f-b567-6aea9a1bc607"
                       data-spacefinder-role="inline"
@@ -3482,6 +3645,7 @@
                         Photograph: Geoff Eccles/Getty Images/iStockphoto
                       </figcaption>
                     </figure>
+
                     <p class="dcr-1kas69x">
                       Combine walks through lush open fields, over rugged
                       headlands and shady woodland with time dipping into
@@ -3492,6 +3656,7 @@
                       Sands, before becoming increasingly rugged as the cliffs
                       rise up to form dramatic headlands.
                     </p>
+
                     <p class="dcr-1kas69x">
                       Dartmouth makes an ideal base if you want to mix walking
                       with more urban pleasures. Check into Browns, a stylish
@@ -3509,6 +3674,7 @@
                         >sykescottages.co.uk</a
                       >).
                     </p>
+
                     <p class="dcr-1kas69x">
                       The stretch from Dartmouth to Brixham is one of the
                       trail’s most challenging, but there are plenty of rewards:
@@ -3536,6 +3702,7 @@
                         >Froward Point</a
                       >.
                     </p>
+
                     <p class="dcr-1kas69x">
                       Brixham itself is a fantastic place in which to end a
                       walk, with excellent fish restaurants dotted through the
@@ -3546,6 +3713,11 @@
                       >), situated in the famous fish market, overlooking the
                       boats as they land their catch.
                     </p>
+
+                    </div>
+
+                    <!-- End of walks -->
+
                     <p class="dcr-1kas69x">
                       <span data-dcr-style="bullet"></span> This article was
                       amended on 9 August 2023 because an earlier version
@@ -3553,6 +3725,7 @@
                       Braunton on the route for Walk 4 and would serve as a
                       lunch spot. In fact it is a few miles past Braunton.
                     </p>
+
                     <p class="dcr-1kas69x">
                       <em class="dcr-1kas69x"
                         >For more information, downloadable maps and route
@@ -3566,6 +3739,9 @@
                     </p>
                   </div>
                 </div>
+
+                <!--  End of Article  -->
+
                 <gu-island
                   name="SlotBodyEnd"
                   props='{"contentType":"Article","contributionsServiceUrl":"https://contributions.guardianapis.com","idApiUrl":"https://idapi.theguardian.com","isMinuteArticle":false,"isPaidContent":false,"keywordIds":"","pageId":"global/2023/aug/23/five-of-the-best-walks-on-englands-south-west-coast-path","sectionId":"","shouldHideReaderRevenue":false,"stage":"PROD","tags":[{"id":"type/article","type":"Type","title":"Article"}],"renderAds":true,"isLabs":false}'
@@ -4291,7 +4467,12 @@ import { ref, onMounted, onBeforeUnmount } from "vue";
 import AnimationTransition from "./components/AnimationTransition.vue"
 
 /* State */
-const pathRef = ref(null)
+const pathRef = ref(null);
+// With more time, abstract ref function, finding path information & scroll event into seperate functions, repeated for each path ref 
+// const path2Ref = ref(null);
+// const path3Ref = ref(null);
+// const path4Ref = ref(null);
+// const path5Ref = ref(null);
 
 /* Variables */
 let pathLocation = null;
@@ -4345,6 +4526,7 @@ onBeforeUnmount(() => {
 
 <style scoped lang="scss">
 
+// Mobile styling
 [data-layout="StandardLayout"] {
 
   // Main page padding
@@ -4370,23 +4552,90 @@ onBeforeUnmount(() => {
 
 // Headline and hero
 [data-gu-name="headline"] {
-  padding: 10rem 1rem;
+  padding: 8rem 1rem 12rem;
   background: var(--linear-background);
   background-attachment: fixed;
 
   position: relative;
 
+  // Icons for hero animation
   .animation-container {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 
     .icon-sun {
       width: 5rem;
       height: 6rem;
+
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+    }
+
+    .icon-bird-big {
+      width: 5rem;
+      height: 5rem;
+      
+      position: absolute;
+      bottom: 9rem;
+      right: 2rem;
+    }
+
+    .icon-bird-tiny {
+      visibility: hidden;
+    }
+
+    .icon-bird-sml {
+      width: 2rem;
+      height: 2rem;
+      
+      position: absolute;
+      bottom: 7rem;
+      left: 2rem;
+    }
+
+    .icon-scroll {
+      width: 4rem;
+      height: 4rem;
+      
+      position: absolute;
+      bottom: 6rem;
+      left: calc(50% - 2rem);
+    }
+
+    .icon-rock-sml {
+      width: 4rem;
+      height: 4rem;
+      
+      position: absolute;
+      bottom: 0;
+      left: -0.5rem;
+    }
+
+    .icon-lighthouse {
+      width: 4rem;
+      height: 4rem;
+      
+      position: absolute;
+      bottom: 2rem;
+      left: -0.5rem;
+    }
+
+    .icon-rock-big {
+      width: 8rem;
+      height: 8rem;
+      
+      position: absolute;
+      bottom: 0;
+      right: -0.5rem;
     }
   }
 
+  // Main article title
   h1 {
     line-height: 140%;
     padding: 0 1rem;
@@ -4397,7 +4646,7 @@ onBeforeUnmount(() => {
 [data-gu-name="meta"] {
   position: absolute;
   bottom: 0.5rem;
-  left: 0.5rem;
+  left: 3rem;
 
   div {
     color: var(--light);
@@ -4467,9 +4716,14 @@ onBeforeUnmount(() => {
         fill: var(--dark-accent);
       }
     }
+
+    // Hyperlink text
+    p > a {
+      color: var(--accent);
+    }
     
     // First walk
-    .walk-1-container {
+    .walk-container {
       //Total height of sticky images
       height: calc(100vh * 5 + 5rem);
       position: relative;
@@ -4483,7 +4737,7 @@ onBeforeUnmount(() => {
         position: -webkit-sticky;
         top: 0;
         left: 0;
-        z-index: 20;
+        z-index: 30;
 
         display: flex;
         align-items: center;
@@ -4496,7 +4750,6 @@ onBeforeUnmount(() => {
           font-size: 1.2rem;
           font-weight: 800;
           color: var(--dark);
-          z-index: 1;
         }
 
         .txt {
@@ -4512,7 +4765,7 @@ onBeforeUnmount(() => {
         position: absolute;
         top: 100vh;
         left: calc(50% - 10rem);
-        z-index: 10;
+        z-index: 20;
 
         width: 20rem;
         height: 20rem;
@@ -4553,13 +4806,25 @@ onBeforeUnmount(() => {
         left: calc(100% - 7rem);
         width: 6rem;
         height: 80vh;
-        z-index: 10;
+        z-index: 20;
         margin: 2rem 0 5rem 0;
         background-color: var(--background-overlay);
+        background-image: url("@/assets/topography.svg");
+        background-position: center;
 
         .path-svg {
           width: 4rem;
           height: calc(100% - 2rem);
+        }
+
+        .path-svg-opaque {
+          position: absolute;
+          top: 1rem;
+          left: 1rem;
+          width: 4rem;
+          height: calc(100% - 2rem);
+
+          opacity: 0.5;
         }
 
         .marker-svg {
@@ -4574,8 +4839,9 @@ onBeforeUnmount(() => {
       h2 {
         position: absolute;
         top: 2rem;
-        left: 2rem;
-        z-index: 10;
+        left: 0;
+        padding: 0 2rem;
+        z-index: 20;
         color: var(--light);
       }
 
@@ -4585,6 +4851,7 @@ onBeforeUnmount(() => {
           position: -webkit-sticky;
           top: 0;
           margin: 0;
+          /* z-index: 10; */
 
           // Div wrapper
           div {
@@ -4631,21 +4898,179 @@ onBeforeUnmount(() => {
         // Text for Walk 1
         > p {
           position: absolute;
-          top: calc(200vh + 4rem);
+          top: 185vh;
           left: 1rem;
+          /* z-index: 10; */
 
-          width: 60%;
+          width: 14rem;
           padding: 0.25rem;
 
           background-color: var(--background-overlay);
           color: var(--light);
         }
+
+        //Quote
+        .blockquote {
+          position: absolute;
+          top: calc(100vh - 10rem);
+          left: 0;
+        }
+
+      // Walk 2 container
+      &.walk-2 {
+
+        // Text boxes
+        > p:nth-of-type(1) {
+          top: calc(175vh + 4rem);
+        }
+
+        > p:nth-of-type(2) {
+          top: calc(250vh + 4rem);
+        }
+
+        > p:nth-of-type(3) {
+          top: calc(350vh + 1.5rem);
+        }
+      }
+
+      // Walk 2 container
+      &.walk-3 {
+
+        // Text boxes
+        > p:nth-of-type(1) {
+          top: calc(175vh + 4rem);
+        }
+
+        > p:nth-of-type(2) {
+          top: calc(225vh + 6rem);
+        }
+
+        > p:nth-of-type(3) {
+          top: calc(325vh - 1rem);
+        }
+
+        > p:nth-of-type(4) {
+          top: calc(375vh + 3rem);
+        }
+
+        > p:nth-of-type(5) {
+          top: calc(400vh + 8rem);
+        }
+      }
+
+      &.walk-4 {
+
+        // Text boxes
+        > p:nth-of-type(1) {
+          top: calc(175vh + 4rem);
+        }
+
+        > p:nth-of-type(2) {
+          top: calc(274vh + 3rem);
+        }
+
+        > p:nth-of-type(3) {
+          top: 385vh;
+        }
+
+        > p:nth-of-type(4) {
+          top: 436vh;
+        }
+      }
+
+      &.walk-5 {
+
+        // Text boxes
+        > p:nth-of-type(1) {
+          top: calc(175vh + 4rem);
+        }
+
+        > p:nth-of-type(2) {
+          top: calc(250vh + 5rem);
+        }
+
+        > p:nth-of-type(3) {
+          top: 325vh;
+        }
+
+        > p:nth-of-type(4) {
+          top: 385vh;
+        }
+      }
     }
-    
+
+    // End of article, last two para
+    .article-body-commercial-selector {
+      > p:nth-last-child(2) {
+        padding: 2rem;
+
+        span {
+          background-color: var(--dark-accent)
+        }
+      }
+
+      > p:nth-last-child(1) {
+        border-inline-start: 1.5rem solid var(--accent);
+        padding: 0.5rem 2rem 0.6rem 1.5rem;
+        margin: 0 0 2rem 0;
+
+        a {
+          color: var(--dark-accent)
+        }
+      }
+    }
   }
 }
 
 /* Sizing */
+
+//Adjust walking section text
+@media (min-width: 450px){
+  // Main content
+  [data-gu-name="body"] {
+    #maincontent {
+      
+      // First walk
+      .walk-container {
+          // Text for Walk 1
+          > p {
+            left: calc(50% - 14rem);
+
+            width: 20rem;
+            padding: 0.25rem;
+          }
+      }
+    }
+  }
+}
+
+@media (min-width: 700px){
+  // Main content
+  [data-gu-name="body"] {
+    #maincontent {
+      
+      // First walk
+      .walk-container {
+          // Text for Walk 1
+          > p {
+            left: calc(50% - 18rem);
+
+            width: 30rem;
+            padding: 0.25rem;
+          }
+      }
+    }
+  }
+}
+
+@media (max-width: 659px) {
+  .dcr-rj0a8c {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
 
 @media (min-width: 740px){
   [data-layout="StandardLayout"] {
@@ -4680,19 +5105,74 @@ onBeforeUnmount(() => {
 
   // Hero
   [data-gu-name="headline"] {
-    height: calc(100vh - 17.625rem);
+    /* height: calc(100vh - 17.625rem); */
+    height: 100vh;
     padding: 4rem 2.5rem;
 
+    // Hero icons that animate
     .animation-container {
-      top: 1rem;
-      right: 2rem;
 
       .icon-sun {
+        width: 12rem;
+        height: 12rem;
+      }
+
+      .icon-bird-big {
         width: 10rem;
-        height: 11rem;
+        height: 10rem;
+        
+        bottom: calc(50% - 9rem);
+        right: 11rem;
+        z-index: 10;
+      }
+
+      .icon-bird-tiny {
+        visibility: visible;
+        
+        width: 3rem;
+        height: 3rem;
+        
+        position: absolute;
+        bottom: calc(50% + 1rem);
+        right: 8rem;
+      }
+
+      .icon-bird-sml {
+        width: 5rem;
+        height: 5rem;
+        
+        bottom: calc(50% - 3rem);
+        left: 4rem;
+      }
+
+      .icon-scroll {
+        width: 6rem;
+        height: 6rem;
+        
+        bottom: 3rem;
+        left: calc(50% - 3rem);
+      }
+
+      .icon-rock-sml {
+        width: 14rem;
+        height: 14rem;
+      }
+
+      .icon-lighthouse {
+        width: 6rem;
+        height: 6rem;
+        
+        bottom: 8rem;
+        left: 2rem;
+      }
+
+      .icon-rock-big {
+        width: 20rem;
+        height: 21rem;
       }
     }
 
+    // Main article title
     h1 {
       padding: 0;
       font-size: 2.5rem;
@@ -4762,103 +5242,66 @@ onBeforeUnmount(() => {
       }
       
       // First walk
-      .walk-1-container {
+      .walk-container {
+
         //Total height of sticky images
-        height: calc(100vh * 5 + 5rem);
+        height: calc(100vh * 4.5);
+        // Image height, sticky title, route container + margin
+        height: calc((100vh * 3.75) + 76vh + 0rem - 3.75rem);
 
         // Sticky title
         .sticky-title {
-          height: 2rem;
-          gap: 1rem;
-          padding: 0 0 0 1rem;
-          border-inline-start: 1rem solid var(--accent);
+          height: 3rem;
+          gap: 1.5rem;
+          padding: 0 0 0 1.5rem;
+          border-inline-start: 2rem solid var(--accent);
           
           .num {
-            font-size: 1.2rem;
-            font-weight: 800;
-            color: var(--dark);
-            z-index: 1;
+            font-size: 2rem;
+            margin-bottom: 0;
           }
 
           .txt {
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.25rem;
-            color: var(--dark);
+            font-size: 1rem;
+            letter-spacing: 0.4rem;
+            margin-bottom: 0;
           }
         }
 
         // Map
         .map-container {
-          top: 100vh;
-          left: calc(50% - 20rem);
+          top: calc(125vh + 5rem);
+          left: calc(50% - 17rem);
 
-          width: 40rem;
-          height: 40rem;
-        }
-      }
-    }
-  }
-          /* background-color: var(--background-overlay);
+          width: 34rem;
+          height: 34rem;
 
           .map {
-            width: 100%;
-            height: 100%;
-            padding: 1rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-
-            .map-svg {
-              width: 100%;
-              height: 100%;
-            }
+            padding: 3rem;
 
             .route-svg {
-              width: 4rem;
-              height: 4rem;
-              position: absolute;
-              bottom: 5rem;
-              left: 3.5rem;
+              width: 8rem;
+              height: 8rem;
+              bottom: 12rem;
+              left: 7rem;
             }
           }
         }
 
         //SVG path that follows scroll
         .route-container {
-          position: sticky;
-          position: -webkit-sticky;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          top: calc(52% - 40vh);
-          left: calc(100% - 7rem);
-          width: 6rem;
-          height: 80vh;
-          z-index: 10;
+          top: calc(50% - 34vh);
+          left: calc(100% - 10rem);
+          height: 76vh;
           margin: 2rem 0 5rem 0;
-          background-color: var(--background-overlay);
-
-          .path-svg {
-            width: 4rem;
-            height: calc(100% - 2rem);
-          }
-
-          .marker-svg {
-            width: 1.5rem;
-            height: 1.5rem;
-
-            position: absolute;
-          }
         }
 
         // Title
         h2 {
           top: 4rem;
           font-size: 3.5rem;
-          line-height: 150%;
-          padding: 0 2rem;
+          line-height: 125%;
+          padding: 0 14rem 0 2rem;
         }
 
           // Figure container for sticky images
@@ -4866,20 +5309,19 @@ onBeforeUnmount(() => {
 
             //Caption
             figcaption {
-              margin: 1rem 0.25rem 0.25rem 0.25rem;
-              padding: 0.25rem;
-
+              bottom: 1.2rem;
+              left: 0.5rem;
             }
           }
 
           //First image length
           figure:nth-of-type(1) {
-            height: 175vh;
+            height: 125vh;
           }
 
           // Second image length
           figure:nth-of-type(2) {
-            height: 130vh;
+            height: 125vh;
           }
 
           // Third image length
@@ -4887,21 +5329,100 @@ onBeforeUnmount(() => {
             height: 100vh;
           }
 
-          // Text for Walk 1
-          > p {
-            position: absolute;
-            top: calc(200vh + 4rem);
-            left: 1rem;
+        // Text box
+        > p {
+          position: absolute;
+          top: 250vh;
+          left: calc(50% - 17rem);
+          width: 34rem;
 
-            width: 60%;
-            padding: 0.25rem;
+          background-color: var(--background-overlay);
+          color: var(--light);
+        }
 
-            background-color: var(--background-overlay);
-            color: var(--light);
+      // Walk 2 container
+      &.walk-2 {
+
+        // Text boxes
+        > p:nth-of-type(1) {
+          top: 232vh;
+        }
+
+        > p:nth-of-type(2) {
+          top: calc(232vh + 20rem);
+        }
+
+        > p:nth-of-type(3) {
+          top: calc(232vh + 44rem);
+        }
+      }
+
+      // Walk 2 container
+      &.walk-3 {
+
+        // Text boxes
+        > p:nth-of-type(1) {
+          top: calc(232vh);
+        }
+
+        > p:nth-of-type(2) {
+          top: calc(232vh + 15rem);
+        }
+
+        > p:nth-of-type(3) {
+          top: calc(232vh + 34rem);
+        }
+
+        > p:nth-of-type(4) {
+          top: calc(232vh + 49rem);
+        }
+
+        > p:nth-of-type(5) {
+          top: calc(232vh + 60rem);
+        }
+      }
+
+      &.walk-4 {
+
+        // Text boxes
+        > p:nth-of-type(1) {
+          top: calc(228vh);
+        }
+
+        > p:nth-of-type(2) {
+          top: calc(228vh + 24rem);
+        }
+
+        > p:nth-of-type(3) {
+          top: calc(228vh + 49rem);
+        }
+
+        > p:nth-of-type(4) {
+          top: calc(228vh + 64rem);
+        }
+      }
+
+        &.walk-5 {
+        // Text boxes
+          > p:nth-of-type(1) {
+            top: calc(229vh);
           }
+
+          > p:nth-of-type(2) {
+            top: calc(250vh + 10rem);
+          }
+
+          > p:nth-of-type(3) {
+            top: calc(250vh + 28rem);
+          }
+
+          > p:nth-of-type(4) {
+            top: calc(250vh + 46rem);
+          }
+        }
       }
     }
-  } */
+  }
 }
 
 @media (max-width: 1139px){
@@ -4949,6 +5470,16 @@ onBeforeUnmount(() => {
       article > div:first-child > div:first-child {
         max-width: 90rem;
         margin: auto;
+      }
+    }
+
+    [data-gu-name="body"] {
+        #maincontent {      
+        .walk-container {
+          .route-container {
+            left: 80%;
+          }
+        }
       }
     }
   }
