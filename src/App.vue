@@ -4500,6 +4500,7 @@ onMounted(() => {
   const start = pathLocation - (viewportPercent * 140) + 75;
   const end = pathLocation + (viewportPercent * 20);
 
+  // To-Do: Extract to own function and run for each path ref
   onScrollEvent = () => {
     scrollPercentage = ((document.documentElement.scrollTop - start) / (end - start)) * 0.5;
 
@@ -4526,7 +4527,7 @@ onBeforeUnmount(() => {
 
 <style scoped lang="scss">
 
-// Mobile styling
+// Mobile styling layout
 [data-layout="StandardLayout"] {
 
   // Main page padding
@@ -4548,6 +4549,16 @@ onBeforeUnmount(() => {
       grid-column-gap: 0;
     }
   }
+}
+
+// Links - map container link
+.dcr-pnit1n a:not([data-ignore="global-link-styling"]) {
+  border-bottom: none;
+}
+
+// Focus ring
+html:not(.src-focus-disabled) *:focus {
+    box-shadow: 0 0 4px 5px #0077b6, 0 0px 2px 7px var(--accent)
 }
 
 // Headline and hero
@@ -4666,7 +4677,7 @@ onBeforeUnmount(() => {
 }
 
 // Intro image
-  [data-gu-name="media"] {
+[data-gu-name="media"] {
     picture,
     figcaption {
       max-width: 80vw;
@@ -4678,7 +4689,7 @@ onBeforeUnmount(() => {
   display: none;
 }
 
-// Main content
+// Mobile styling main content
 [data-gu-name="body"] {
   #maincontent {
 
@@ -4847,7 +4858,6 @@ onBeforeUnmount(() => {
           position: -webkit-sticky;
           top: 0;
           margin: 0;
-          /* z-index: 10; */
 
           // Div wrapper
           div {
@@ -4896,7 +4906,6 @@ onBeforeUnmount(() => {
           position: absolute;
           top: 185vh;
           left: 1rem;
-          /* z-index: 10; */
 
           width: 14rem;
           padding: 0.25rem;
@@ -5019,8 +5028,6 @@ onBeforeUnmount(() => {
 }
 
 /* Sizing */
-
-//Adjust walking section text
 @media (min-width: 450px){
   // Main content
   [data-gu-name="body"] {
@@ -5067,7 +5074,6 @@ onBeforeUnmount(() => {
   }
 }
 
-
 @media (min-width: 740px){
   [data-layout="StandardLayout"] {
 
@@ -5084,7 +5090,7 @@ onBeforeUnmount(() => {
   }
 }
 
-// Desktop styling
+// Desktop styling layout and main content
 @media (min-width: 980px){
   [data-gu-name="media"] {
     // Intro image
@@ -5101,7 +5107,6 @@ onBeforeUnmount(() => {
 
   // Hero
   [data-gu-name="headline"] {
-    /* height: calc(100vh - 17.625rem); */
     height: 100vh;
     padding: 4rem 2.5rem;
 
@@ -5459,7 +5464,6 @@ onBeforeUnmount(() => {
   }
 }
 
-//Desktop layout
 @media (min-width: 1300px){
   @supports (display: grid){
       [data-layout="StandardLayout"] {
