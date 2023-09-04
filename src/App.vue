@@ -4904,7 +4904,7 @@ html:not(.src-focus-disabled) *:focus {
         // Text for Walk 1
         > p {
           position: absolute;
-          top: 185vh;
+          top: 183vh;
           left: 1rem;
 
           width: 14rem;
@@ -4926,15 +4926,15 @@ html:not(.src-focus-disabled) *:focus {
 
         // Text boxes
         > p:nth-of-type(1) {
-          top: calc(175vh + 4rem);
+          top: calc(183vh);
         }
 
         > p:nth-of-type(2) {
-          top: calc(250vh + 4rem);
+          top: calc(183vh + 32rem);
         }
 
         > p:nth-of-type(3) {
-          top: calc(350vh + 1.5rem);
+          top: calc(183vh + 71rem);
         }
       }
 
@@ -4943,23 +4943,23 @@ html:not(.src-focus-disabled) *:focus {
 
         // Text boxes
         > p:nth-of-type(1) {
-          top: calc(175vh + 4rem);
+          top: calc(183vh);
         }
 
         > p:nth-of-type(2) {
-          top: calc(225vh + 6rem);
+          top: calc(183vh + 24rem);
         }
 
         > p:nth-of-type(3) {
-          top: calc(325vh - 1rem);
+          top: calc(183vh + 58rem);
         }
 
         > p:nth-of-type(4) {
-          top: calc(375vh + 3rem);
+          top: calc(183vh + 83rem);
         }
 
         > p:nth-of-type(5) {
-          top: calc(400vh + 8rem);
+          top: calc(183vh + 100rem);
         }
       }
 
@@ -4967,19 +4967,19 @@ html:not(.src-focus-disabled) *:focus {
 
         // Text boxes
         > p:nth-of-type(1) {
-          top: calc(175vh + 4rem);
+          top: calc(183vh);
         }
 
         > p:nth-of-type(2) {
-          top: calc(274vh + 3rem);
+          top: calc(183vh + 41rem);
         }
 
         > p:nth-of-type(3) {
-          top: 385vh;
+          top: calc(183vh + 85rem);
         }
 
         > p:nth-of-type(4) {
-          top: 436vh;
+          top: calc(183vh + 108rem);
         }
       }
 
@@ -4987,19 +4987,19 @@ html:not(.src-focus-disabled) *:focus {
 
         // Text boxes
         > p:nth-of-type(1) {
-          top: calc(175vh + 4rem);
+          top: calc(183vh);
         }
 
         > p:nth-of-type(2) {
-          top: calc(250vh + 5rem);
+          top: calc(183vh + 35rem);
         }
 
         > p:nth-of-type(3) {
-          top: 325vh;
+          top: calc(183vh + 63rem);
         }
 
         > p:nth-of-type(4) {
-          top: 385vh;
+          top: calc(183vh + 91rem);
         }
       }
     }
