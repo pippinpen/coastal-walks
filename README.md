@@ -8,7 +8,7 @@ From ideation, to UX/UI wireframes, creating assets, to hi-fi designs, to MVP th
 
 ## Code & Styling
 
-Here are some of the way this application utilizes code and styling
+Here are some of the ways this application utilizes code and styling:
 - This application uses SASS for styling. Ideally most classes would be abstracted away in different styling folders and applied directly to HTML elements for clean code.
 - At 4k break points the html root size changes to bump up the visual size.
 - Global variables are used for colours, incorporating the guardian's core colour
